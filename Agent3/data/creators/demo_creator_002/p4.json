@@ -1,0 +1,44 @@
+{
+"post_id": "p104",
+"creator_id": "c5678",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-10-20T11:00:00Z",
+"geo_tag": "Bengaluru, Karnataka, India",
+"caption": "My current WFH setup! Minimalist and functional. What's your favorite desk accessory? Let me know below! 👇 #wfh #desksetup #minimalist #tech",
+"hashtags": ["#wfh", "#desksetup", "#minimalist", "#tech", "#productivityspace"],
+"likes": 7150,
+"comments": 210,
+"saves": 550,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Workspace Setup",
+"secondary_theme": "Minimalist Design",
+"mood": "Calm, organized",
+"tone": "Inspirational, conversational",
+"audience_emotion_targeted": ["inspiration", "organization", "calm"],
+"setting": "Home office",
+"camera_style": "Wide static shot",
+"lighting": "Natural daylight (window)",
+"brand_presence": false
+},
+"visual_analysis": {
+"dominant_colors": ["#FFFFFF", "#F0F0F0", "#4A4A4A", "#A3A3A3"],
+"composition_type": "Centered desk view",
+"objects_detected": ["desk", "laptop", "monitor", "keyboard", "mouse", "plant", "notebook"],
+"focus_subject": "Desk workspace",
+"aesthetic_score": 8.9
+},
+"linguistic_analysis": {
+"caption_tone": "Conversational, inviting",
+"emotion_keywords": ["minimalist", "functional", "favorite", "calm"],
+"hashtag_intent": ["work from home", "desk inspiration"],
+"text_overlay_presence": false
+},
+"engagement_features": {
+"engagement_rate": 0.082,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.12, 0.16, 0.09, 0.20, 0.14]
+}

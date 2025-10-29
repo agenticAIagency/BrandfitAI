@@ -1,0 +1,44 @@
+{
+"post_id": "p8001",
+"creator_id": "c5678",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-10-01T14:00:00Z",
+"geo_tag": "New York, USA",
+"caption": "My clean desk setup for deep work. 💻 What's your non-negotiable desk item? #productivity #wfh #desksetup",
+"hashtags": ["#productivity", "#tech", "#minimalism", "#wfh"],
+"likes": 7200,
+"comments": 310,
+"saves": 650,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Productivity",
+"secondary_theme": "Tech Setup",
+"mood": "Calm, focused",
+"tone": "Informational",
+"audience_emotion_targeted": ["focus", "inspiration", "calm"],
+"setting": "Home office",
+"camera_style": "Static, eye-level",
+"lighting": "Warm artificial light",
+"brand_presence": false
+},
+"visual_analysis": {
+"dominant_colors": ["#FFFFFF", "#333333", "#5DADE2"],
+"composition_type": "Symmetrical, clean",
+"objects_detected": ["laptop", "monitor", "keyboard", "mouse", "plant", "notebook"],
+"focus_subject": "desk setup",
+"aesthetic_score": 9.0
+},
+"linguistic_analysis": {
+"caption_tone": "Informational, calm",
+"emotion_keywords": ["clean", "deep work", "focused"],
+"hashtag_intent": ["productivity", "tech"],
+"text_overlay_presence": false
+},
+"engagement_features": {
+"engagement_rate": 0.075,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.4, 0.1, 0.5, 0.2, 0.3]
+}

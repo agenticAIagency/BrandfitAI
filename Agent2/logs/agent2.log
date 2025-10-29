@@ -1,0 +1,893 @@
+2025-10-29 06:09:42,572 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:09:47,699 - MainProcess - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 06:09:47,908 - MainProcess - __main__ [ERROR] - FATAL: Failed to import project modules: No module named 'sentence_transformers'
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\agent2_processor.py", line 39, in <module>
+    from modules.embedding import initialize_embedding_model, generate_embedding, get_text_for_embedding
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\modules\embedding.py", line 3, in <module>
+    from sentence_transformers import SentenceTransformer
+ModuleNotFoundError: No module named 'sentence_transformers'
+2025-10-29 06:13:09,476 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:13:14,541 - MainProcess - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 06:14:56,745 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:15:00,664 - MainProcess - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:31,483 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:35,166 - MainProcess - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:44,908 - MainProcess - __main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:16:44,909 - MainProcess - __main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:16:44,938 - MainProcess - __main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:16:44,940 - MainProcess - __main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:16:44,941 - MainProcess - __main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:16:44,942 - MainProcess - __main__ [INFO] - Ensured output base directory exists: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:16:44,942 - MainProcess - __main__ [INFO] - --- Starting Main Orchestration ---
+2025-10-29 06:16:44,943 - MainProcess - __main__ [INFO] - Scanning for creator folders in E:\AGENTIC_AI\Project_agent3\Agent1\Outputs...
+2025-10-29 06:16:44,944 - MainProcess - __main__ [INFO] - Found 3 post folders to process.
+2025-10-29 06:16:44,945 - MainProcess - __main__ [INFO] - Initializing multiprocessing pool with 12 workers.
+2025-10-29 06:16:45,439 - SpawnPoolWorker-1 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,490 - SpawnPoolWorker-4 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,524 - SpawnPoolWorker-2 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,568 - SpawnPoolWorker-5 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,570 - SpawnPoolWorker-3 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,606 - SpawnPoolWorker-8 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,608 - SpawnPoolWorker-11 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,634 - SpawnPoolWorker-9 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,641 - SpawnPoolWorker-10 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,641 - SpawnPoolWorker-7 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,644 - SpawnPoolWorker-6 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:45,681 - SpawnPoolWorker-12 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:16:54,424 - SpawnPoolWorker-11 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,430 - SpawnPoolWorker-1 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,433 - SpawnPoolWorker-7 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,494 - SpawnPoolWorker-12 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,503 - SpawnPoolWorker-9 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,511 - SpawnPoolWorker-3 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,516 - SpawnPoolWorker-4 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,525 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,532 - SpawnPoolWorker-2 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,547 - SpawnPoolWorker-5 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,608 - SpawnPoolWorker-6 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:16:54,610 - SpawnPoolWorker-8 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:17:19,264 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,265 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,265 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Project modules imported successfully.
+\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,265 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,266 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,266 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,267 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,267 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,267 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,267 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,267 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,268 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,268 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,268 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,268 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,268 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,268 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,268 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,269 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,269 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,270 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,270 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,270 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,271 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,272 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,272 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Configuration loaded successfully.
+Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,272 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,272 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:17:19,272 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,272 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,273 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,273 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,273 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,273 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,273 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:17:19,274 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,274 - SpawnPoolWorker-7 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,274 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,274 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,274 - SpawnPoolWorker-2 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,275 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,275 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,275 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,275 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,275 - SpawnPoolWorker-7 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,275 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,276 - SpawnPoolWorker-5 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,276 - SpawnPoolWorker-2 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,276 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,276 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,276 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,277 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,277 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,277 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,277 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,277 - SpawnPoolWorker-1 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,278 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,278 - SpawnPoolWorker-6 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+ta\creators
+2025-10-29 06:17:19,278 - SpawnPoolWorker-10 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,279 - SpawnPoolWorker-10 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,279 - SpawnPoolWorker-4 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,279 - SpawnPoolWorker-1 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,279 - SpawnPoolWorker-12 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,279 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,279 - SpawnPoolWorker-3 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,279 - SpawnPoolWorker-6 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,279 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:17:19,279 - SpawnPoolWorker-5 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,279 - SpawnPoolWorker-7 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,279 - SpawnPoolWorker-4 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,280 - SpawnPoolWorker-12 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,280 - SpawnPoolWorker-11 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,280 - SpawnPoolWorker-3 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,280 - SpawnPoolWorker-2 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,280 - SpawnPoolWorker-11 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,281 - SpawnPoolWorker-9 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,282 - SpawnPoolWorker-9 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:17:19,282 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:17:19,282 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:17:19,283 - SpawnPoolWorker-1 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,283 - SpawnPoolWorker-8 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:17:19,284 - SpawnPoolWorker-6 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,284 - SpawnPoolWorker-10 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,284 - SpawnPoolWorker-3 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,284 - SpawnPoolWorker-4 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,284 - SpawnPoolWorker-5 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,285 - SpawnPoolWorker-12 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,285 - SpawnPoolWorker-11 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,285 - SpawnPoolWorker-9 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:19,288 - SpawnPoolWorker-8 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:17:25,314 - SpawnPoolWorker-3 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,315 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c1/post1] Starting processing.
+2025-10-29 06:17:25,317 - SpawnPoolWorker-2 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,318 - SpawnPoolWorker-9 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,318 - SpawnPoolWorker-2 - __mp_main__ [INFO] - [c1/post2] Starting processing.
+2025-10-29 06:17:25,318 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Starting processing.
+2025-10-29 06:17:25,331 - SpawnPoolWorker-5 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,331 - SpawnPoolWorker-10 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,331 - SpawnPoolWorker-11 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,331 - SpawnPoolWorker-4 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,332 - SpawnPoolWorker-8 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,333 - SpawnPoolWorker-12 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:17:25,336 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c1/post1] Found media: Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4, Type: reel
+2025-10-29 06:17:25,336 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c1/post1] Starting Gemini analysis...
+2025-10-29 06:17:25,337 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Found media: Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4, Type: reel
+2025-10-29 06:17:25,337 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Starting Gemini analysis...
+2025-10-29 06:17:25,337 - SpawnPoolWorker-3 - __mp_main__ [ERROR] - [c1/post1] UNHANDLED EXCEPTION during processing: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\agent2_processor.py", line 132, in process_post_folder
+    loop = asyncio.get_event_loop()
+           ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'?
+2025-10-29 06:17:25,338 - SpawnPoolWorker-9 - __mp_main__ [ERROR] - [c2/post1] UNHANDLED EXCEPTION during processing: name 'asyncio' is not defined
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\agent2_processor.py", line 132, in process_post_folder
+    loop = asyncio.get_event_loop()
+           ^^^^^^^
+NameError: name 'asyncio' is not defined. Did you forget to import 'asyncio'?
+2025-10-29 06:17:25,465 - MainProcess - __main__ [INFO] - --- Processing Complete ---
+2025-10-29 06:17:25,466 - MainProcess - __main__ [INFO] - Total time: 40.52 seconds
+2025-10-29 06:17:25,466 - MainProcess - __main__ [INFO] - Processed: 3 posts
+2025-10-29 06:17:25,466 - MainProcess - __main__ [INFO] - Successful: 0
+2025-10-29 06:17:25,466 - MainProcess - __main__ [INFO] - Failed: 3
+2025-10-29 06:17:25,466 - MainProcess - __main__ [WARNING] - Failed posts:
+2025-10-29 06:17:25,467 - MainProcess - __main__ [WARNING] -   - post2: metadata.json not found
+2025-10-29 06:17:25,467 - MainProcess - __main__ [WARNING] -   - post1: Unhandled exception: name 'asyncio' is not defined
+2025-10-29 06:17:25,467 - MainProcess - __main__ [WARNING] -   - post1: Unhandled exception: name 'asyncio' is not defined
+2025-10-29 06:17:25,467 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Finished ---
+2025-10-29 06:19:43,325 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:47,141 - MainProcess - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:19:56,542 - MainProcess - __main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:19:56,543 - MainProcess - __main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:19:56,545 - MainProcess - __main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:19:56,546 - MainProcess - __main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:19:56,546 - MainProcess - __main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:19:56,546 - MainProcess - __main__ [INFO] - Ensured output base directory exists: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:19:56,546 - MainProcess - __main__ [INFO] - --- Starting Main Orchestration ---
+2025-10-29 06:19:56,547 - MainProcess - __main__ [INFO] - Scanning for creator folders in E:\AGENTIC_AI\Project_agent3\Agent1\Outputs...
+2025-10-29 06:19:56,548 - MainProcess - __main__ [INFO] - Found 3 post folders to process.
+2025-10-29 06:19:56,548 - MainProcess - __main__ [INFO] - Initializing multiprocessing pool with 12 workers.
+2025-10-29 06:19:57,300 - SpawnPoolWorker-1 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,341 - SpawnPoolWorker-2 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,343 - SpawnPoolWorker-3 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,359 - SpawnPoolWorker-5 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,372 - SpawnPoolWorker-6 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,378 - SpawnPoolWorker-7 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,415 - SpawnPoolWorker-9 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,449 - SpawnPoolWorker-10 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,449 - SpawnPoolWorker-12 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,467 - SpawnPoolWorker-8 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:19:57,484 - SpawnPoolWorker-11 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:20:05,203 - SpawnPoolWorker-6 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,217 - SpawnPoolWorker-12 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,218 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,275 - SpawnPoolWorker-3 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,362 - SpawnPoolWorker-2 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,384 - SpawnPoolWorker-4 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,438 - SpawnPoolWorker-1 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,447 - SpawnPoolWorker-11 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,447 - SpawnPoolWorker-7 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,486 - SpawnPoolWorker-9 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,508 - SpawnPoolWorker-8 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:05,512 - SpawnPoolWorker-5 - modules.analysis [INFO] - Gemini client configured for model: gemini-1.5-flash-latest
+2025-10-29 06:20:25,657 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,658 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,662 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,664 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,665 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,667 - SpawnPoolWorker-10 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,670 - SpawnPoolWorker-10 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,677 - SpawnPoolWorker-10 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,700 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,701 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,709 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,712 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,712 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,714 - SpawnPoolWorker-2 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,715 - SpawnPoolWorker-2 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,719 - SpawnPoolWorker-2 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,726 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,728 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,733 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,735 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,735 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,737 - SpawnPoolWorker-1 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,738 - SpawnPoolWorker-1 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,742 - SpawnPoolWorker-1 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,742 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,743 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,749 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,751 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,753 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,756 - SpawnPoolWorker-12 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,757 - SpawnPoolWorker-12 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,760 - SpawnPoolWorker-12 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,778 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,778 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,782 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,784 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,786 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,787 - SpawnPoolWorker-3 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,788 - SpawnPoolWorker-3 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,788 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,789 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,791 - SpawnPoolWorker-3 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,793 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,795 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,795 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,796 - SpawnPoolWorker-11 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,797 - SpawnPoolWorker-11 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,801 - SpawnPoolWorker-11 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,824 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,825 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,829 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,831 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,833 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,839 - SpawnPoolWorker-5 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,840 - SpawnPoolWorker-5 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,844 - SpawnPoolWorker-5 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,894 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,897 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,901 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,904 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,906 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,907 - SpawnPoolWorker-4 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,908 - SpawnPoolWorker-4 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,913 - SpawnPoolWorker-4 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,928 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,931 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,932 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,933 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,933 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,939 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,941 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,942 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,945 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,945 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,945 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,946 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,947 - SpawnPoolWorker-7 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,948 - SpawnPoolWorker-7 - modules.embedding [INFO] - Auto-selected device: cpu
+embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,949 - SpawnPoolWorker-6 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,949 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,952 - SpawnPoolWorker-6 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,952 - SpawnPoolWorker-7 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,952 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:20:25,954 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,955 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:20:25,957 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,960 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:20:25,962 - SpawnPoolWorker-8 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,964 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:20:25,965 - SpawnPoolWorker-8 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,966 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:20:25,968 - SpawnPoolWorker-9 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:20:25,969 - SpawnPoolWorker-9 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:20:25,969 - SpawnPoolWorker-8 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:25,972 - SpawnPoolWorker-9 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:20:30,463 - SpawnPoolWorker-1 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,463 - SpawnPoolWorker-1 - __mp_main__ [INFO] - [c1/post1] Starting processing.
+2025-10-29 06:20:30,464 - SpawnPoolWorker-1 - __mp_main__ [INFO] - [c1/post1] Found media: Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4, Type: reel
+2025-10-29 06:20:30,465 - SpawnPoolWorker-1 - __mp_main__ [INFO] - [c1/post1] Starting Gemini analysis...
+2025-10-29 06:20:30,479 - SpawnPoolWorker-1 - modules.analysis [INFO] - Uploading media file: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs\c1\post1\Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4...
+2025-10-29 06:20:30,479 - SpawnPoolWorker-1 - modules.analysis [INFO] - Media file size: 6.92 MB
+2025-10-29 06:20:30,482 - SpawnPoolWorker-3 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,483 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c1/post2] Starting processing.
+2025-10-29 06:20:30,483 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c2/post1] Starting processing.
+2025-10-29 06:20:30,484 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c2/post1] Found media: Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4, Type: reel
+2025-10-29 06:20:30,485 - SpawnPoolWorker-3 - __mp_main__ [INFO] - [c2/post1] Starting Gemini analysis...
+2025-10-29 06:20:30,486 - SpawnPoolWorker-3 - modules.analysis [INFO] - Uploading media file: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs\c2\post1\Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4...
+2025-10-29 06:20:30,487 - SpawnPoolWorker-3 - modules.analysis [INFO] - Media file size: 21.49 MB
+2025-10-29 06:20:30,530 - SpawnPoolWorker-5 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,557 - SpawnPoolWorker-12 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,656 - SpawnPoolWorker-8 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,665 - SpawnPoolWorker-4 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,720 - SpawnPoolWorker-2 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,721 - SpawnPoolWorker-7 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,725 - SpawnPoolWorker-6 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,725 - SpawnPoolWorker-9 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:30,843 - SpawnPoolWorker-10 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:31,027 - SpawnPoolWorker-11 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:20:50,614 - SpawnPoolWorker-1 - modules.analysis [INFO] - Started upload for 'Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/3rrin0z7tha1
+2025-10-29 06:20:50,615 - SpawnPoolWorker-1 - modules.analysis [INFO] - Waiting for media processing... (Attempt 1/15) URI: https://generativelanguage.googleapis.com/v1beta/files/3rrin0z7tha1
+2025-10-29 06:20:56,952 - SpawnPoolWorker-1 - modules.analysis [INFO] - Media file is active and ready: https://generativelanguage.googleapis.com/v1beta/files/3rrin0z7tha1
+2025-10-29 06:20:56,953 - SpawnPoolWorker-1 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 1/3
+2025-10-29 06:20:57,736 - SpawnPoolWorker-1 - modules.analysis [ERROR] - Attempt 1: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:20:58,750 - SpawnPoolWorker-1 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 2/3
+2025-10-29 06:20:58,923 - SpawnPoolWorker-1 - modules.analysis [ERROR] - Attempt 2: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:00,926 - SpawnPoolWorker-1 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 3/3
+2025-10-29 06:21:01,086 - SpawnPoolWorker-1 - modules.analysis [ERROR] - Attempt 3: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:01,086 - SpawnPoolWorker-1 - modules.analysis [INFO] - Deleting uploaded media file: https://generativelanguage.googleapis.com/v1beta/files/3rrin0z7tha1
+2025-10-29 06:21:02,989 - SpawnPoolWorker-1 - modules.analysis [ERROR] - Analysis failed for post1 after 3 attempts.
+2025-10-29 06:21:02,990 - SpawnPoolWorker-1 - modules.analysis [ERROR] - Last error detail: API Call Error: NotFound - 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:03,804 - SpawnPoolWorker-3 - modules.analysis [INFO] - Started upload for 'Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/7w0mzwu7b7yl
+2025-10-29 06:21:03,805 - SpawnPoolWorker-3 - modules.analysis [INFO] - Waiting for media processing... (Attempt 1/15) URI: https://generativelanguage.googleapis.com/v1beta/files/7w0mzwu7b7yl
+2025-10-29 06:21:10,160 - SpawnPoolWorker-3 - modules.analysis [INFO] - Media file is active and ready: https://generativelanguage.googleapis.com/v1beta/files/7w0mzwu7b7yl
+2025-10-29 06:21:10,160 - SpawnPoolWorker-3 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 1/3
+2025-10-29 06:21:10,974 - SpawnPoolWorker-3 - modules.analysis [ERROR] - Attempt 1: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:11,989 - SpawnPoolWorker-3 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 2/3
+2025-10-29 06:21:12,185 - SpawnPoolWorker-3 - modules.analysis [ERROR] - Attempt 2: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:14,200 - SpawnPoolWorker-3 - modules.analysis [INFO] - Calling Gemini (gemini-1.5-flash-latest) - Attempt 3/3
+2025-10-29 06:21:14,364 - SpawnPoolWorker-3 - modules.analysis [ERROR] - Attempt 3: Gemini API call failed: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:14,365 - SpawnPoolWorker-3 - modules.analysis [INFO] - Deleting uploaded media file: https://generativelanguage.googleapis.com/v1beta/files/7w0mzwu7b7yl
+2025-10-29 06:21:16,405 - SpawnPoolWorker-3 - modules.analysis [ERROR] - Analysis failed for post1 after 3 attempts.
+2025-10-29 06:21:16,405 - SpawnPoolWorker-3 - modules.analysis [ERROR] - Last error detail: API Call Error: NotFound - 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-29 06:21:16,578 - MainProcess - __main__ [INFO] - --- Processing Complete ---
+2025-10-29 06:21:16,578 - MainProcess - __main__ [INFO] - Total time: 80.03 seconds
+2025-10-29 06:21:16,579 - MainProcess - __main__ [INFO] - Processed: 3 posts
+2025-10-29 06:21:16,579 - MainProcess - __main__ [INFO] - Successful: 0
+2025-10-29 06:21:16,579 - MainProcess - __main__ [INFO] - Failed: 3
+2025-10-29 06:21:16,579 - MainProcess - __main__ [WARNING] - Failed posts:
+2025-10-29 06:21:16,580 - MainProcess - __main__ [WARNING] -   - post2: metadata.json not found
+2025-10-29 06:21:16,580 - MainProcess - __main__ [WARNING] -   - post1: Gemini analysis failed after retries
+2025-10-29 06:21:16,580 - MainProcess - __main__ [WARNING] -   - post1: Gemini analysis failed after retries
+2025-10-29 06:21:16,580 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Finished ---
+2025-10-29 06:22:10,432 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:13,909 - MainProcess - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:22,911 - MainProcess - __main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:22,912 - MainProcess - __main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:22,926 - MainProcess - __main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:22,928 - MainProcess - __main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:22,928 - MainProcess - __main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:22,928 - MainProcess - __main__ [INFO] - Ensured output base directory exists: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:22,928 - MainProcess - __main__ [INFO] - --- Starting Main Orchestration ---
+2025-10-29 06:22:22,929 - MainProcess - __main__ [INFO] - Scanning for creator folders in E:\AGENTIC_AI\Project_agent3\Agent1\Outputs...
+2025-10-29 06:22:22,930 - MainProcess - __main__ [INFO] - Found 3 post folders to process.
+2025-10-29 06:22:22,930 - MainProcess - __main__ [INFO] - Initializing multiprocessing pool with 12 workers.
+2025-10-29 06:22:23,702 - SpawnPoolWorker-1 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,708 - SpawnPoolWorker-4 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,709 - SpawnPoolWorker-2 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,738 - SpawnPoolWorker-5 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,751 - SpawnPoolWorker-3 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,758 - SpawnPoolWorker-7 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,797 - SpawnPoolWorker-8 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,800 - SpawnPoolWorker-6 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,802 - SpawnPoolWorker-9 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,831 - SpawnPoolWorker-12 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,850 - SpawnPoolWorker-10 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:23,856 - SpawnPoolWorker-11 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:22:32,150 - SpawnPoolWorker-12 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,158 - SpawnPoolWorker-6 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,158 - SpawnPoolWorker-8 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,209 - SpawnPoolWorker-2 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,218 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,225 - SpawnPoolWorker-11 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,243 - SpawnPoolWorker-9 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,243 - SpawnPoolWorker-7 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,250 - SpawnPoolWorker-1 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,309 - SpawnPoolWorker-5 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,361 - SpawnPoolWorker-4 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:32,422 - SpawnPoolWorker-3 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:22:51,688 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,688 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,688 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,688 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,692 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,693 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,694 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,696 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,698 - SpawnPoolWorker-12 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,698 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,699 - SpawnPoolWorker-12 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,702 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,702 - SpawnPoolWorker-12 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,705 - SpawnPoolWorker-9 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,706 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,707 - SpawnPoolWorker-9 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,708 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,712 - SpawnPoolWorker-9 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,713 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,716 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,717 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,720 - SpawnPoolWorker-10 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,722 - SpawnPoolWorker-10 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,725 - SpawnPoolWorker-10 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,772 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,772 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,776 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,777 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,778 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,785 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Project modules imported successfully.
+ng model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,790 - SpawnPoolWorker-6 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,790 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,793 - SpawnPoolWorker-6 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,795 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,799 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,799 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,801 - SpawnPoolWorker-4 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,801 - SpawnPoolWorker-4 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,804 - SpawnPoolWorker-4 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,844 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,848 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,852 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,855 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,864 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,872 - SpawnPoolWorker-2 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,874 - SpawnPoolWorker-2 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,892 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,892 - SpawnPoolWorker-2 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,892 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,899 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,901 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,902 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,907 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,909 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,909 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,910 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,912 - SpawnPoolWorker-5 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,914 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,914 - SpawnPoolWorker-5 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,917 - SpawnPoolWorker-5 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,919 - SpawnPoolWorker-8 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,920 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,921 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,925 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,926 - SpawnPoolWorker-8 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,930 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,933 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,935 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,935 - SpawnPoolWorker-11 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,936 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,940 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,941 - SpawnPoolWorker-11 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,942 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,943 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,944 - SpawnPoolWorker-7 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,944 - SpawnPoolWorker-11 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,946 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,947 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,948 - SpawnPoolWorker-7 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,952 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,953 - SpawnPoolWorker-7 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,955 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,956 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,958 - SpawnPoolWorker-1 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,958 - SpawnPoolWorker-1 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,961 - SpawnPoolWorker-1 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:51,969 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:22:51,970 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:22:51,976 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:22:51,977 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:22:51,979 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:22:51,980 - SpawnPoolWorker-3 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:22:51,980 - SpawnPoolWorker-3 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:22:51,984 - SpawnPoolWorker-3 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:22:56,420 - SpawnPoolWorker-10 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,421 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Starting processing.
+2025-10-29 06:22:56,422 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Found media: Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4, Type: reel
+2025-10-29 06:22:56,422 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Starting Gemini analysis...
+2025-10-29 06:22:56,424 - SpawnPoolWorker-10 - modules.analysis [INFO] - Uploading media file: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs\c1\post1\Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4...
+2025-10-29 06:22:56,425 - SpawnPoolWorker-10 - modules.analysis [INFO] - Media file size: 6.92 MB
+2025-10-29 06:22:56,427 - SpawnPoolWorker-9 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,428 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c1/post2] Starting processing.
+2025-10-29 06:22:56,429 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Starting processing.
+2025-10-29 06:22:56,431 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Found media: Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4, Type: reel
+2025-10-29 06:22:56,431 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Starting Gemini analysis...
+2025-10-29 06:22:56,434 - SpawnPoolWorker-9 - modules.analysis [INFO] - Uploading media file: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs\c2\post1\Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4...
+2025-10-29 06:22:56,434 - SpawnPoolWorker-9 - modules.analysis [INFO] - Media file size: 21.49 MB
+2025-10-29 06:22:56,506 - SpawnPoolWorker-8 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,513 - SpawnPoolWorker-6 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,524 - SpawnPoolWorker-12 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,555 - SpawnPoolWorker-5 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,574 - SpawnPoolWorker-4 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,598 - SpawnPoolWorker-11 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,616 - SpawnPoolWorker-3 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,616 - SpawnPoolWorker-7 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:56,624 - SpawnPoolWorker-1 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:22:57,128 - SpawnPoolWorker-2 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:23:16,208 - SpawnPoolWorker-10 - modules.analysis [INFO] - Started upload for 'Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/vomym1omvlq5
+2025-10-29 06:23:16,209 - SpawnPoolWorker-10 - modules.analysis [INFO] - Waiting for media processing... (Attempt 1/15) URI: https://generativelanguage.googleapis.com/v1beta/files/vomym1omvlq5
+2025-10-29 06:23:22,633 - SpawnPoolWorker-10 - modules.analysis [INFO] - Media file is active and ready: https://generativelanguage.googleapis.com/v1beta/files/vomym1omvlq5
+2025-10-29 06:23:22,634 - SpawnPoolWorker-10 - modules.analysis [INFO] - Calling Gemini (gemini-flash-latest) - Attempt 1/3
+2025-10-29 06:23:35,067 - SpawnPoolWorker-9 - modules.analysis [INFO] - Started upload for 'Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4' as: https://generativelanguage.googleapis.com/v1beta/files/84bemtq3cx1r
+2025-10-29 06:23:35,067 - SpawnPoolWorker-9 - modules.analysis [INFO] - Waiting for media processing... (Attempt 1/15) URI: https://generativelanguage.googleapis.com/v1beta/files/84bemtq3cx1r
+2025-10-29 06:23:41,712 - SpawnPoolWorker-9 - modules.analysis [INFO] - Media file is active and ready: https://generativelanguage.googleapis.com/v1beta/files/84bemtq3cx1r
+2025-10-29 06:23:41,712 - SpawnPoolWorker-9 - modules.analysis [INFO] - Calling Gemini (gemini-flash-latest) - Attempt 1/3
+2025-10-29 06:23:41,728 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini response parsed and validated successfully.
+2025-10-29 06:23:41,729 - SpawnPoolWorker-10 - modules.analysis [INFO] - Deleting uploaded media file: https://generativelanguage.googleapis.com/v1beta/files/vomym1omvlq5
+2025-10-29 06:23:44,791 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Gemini analysis successful.
+2025-10-29 06:23:44,792 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Generating text for embedding...
+2025-10-29 06:23:44,792 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Generating embedding...
+2025-10-29 06:23:44,971 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Embedding generated successfully.
+2025-10-29 06:23:44,971 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Assembling final JSON...
+2025-10-29 06:23:44,972 - SpawnPoolWorker-10 - __mp_main__ [WARNING] - [c1/post1] Cannot calculate engagement rate (views=None, followers=None). Setting to 0.0.
+2025-10-29 06:23:44,972 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Saving output JSON...
+2025-10-29 06:23:44,974 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Successfully saved output to E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators\c1\post1.json
+2025-10-29 06:24:10,850 - SpawnPoolWorker-9 - modules.analysis [INFO] - Gemini response parsed and validated successfully.
+2025-10-29 06:24:10,850 - SpawnPoolWorker-9 - modules.analysis [INFO] - Deleting uploaded media file: https://generativelanguage.googleapis.com/v1beta/files/84bemtq3cx1r
+2025-10-29 06:24:12,948 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Gemini analysis successful.
+2025-10-29 06:24:12,948 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Generating text for embedding...
+2025-10-29 06:24:12,949 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Generating embedding...
+2025-10-29 06:24:13,047 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Embedding generated successfully.
+2025-10-29 06:24:13,048 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Assembling final JSON...
+2025-10-29 06:24:13,048 - SpawnPoolWorker-9 - __mp_main__ [WARNING] - [c2/post1] Cannot calculate engagement rate (views=None, followers=None). Setting to 0.0.
+2025-10-29 06:24:13,049 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Saving output JSON...
+2025-10-29 06:24:13,051 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c2/post1] Successfully saved output to E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators\c2\post1.json
+2025-10-29 06:24:13,247 - MainProcess - __main__ [INFO] - --- Processing Complete ---
+2025-10-29 06:24:13,248 - MainProcess - __main__ [INFO] - Total time: 110.32 seconds
+2025-10-29 06:24:13,248 - MainProcess - __main__ [INFO] - Processed: 3 posts
+2025-10-29 06:24:13,248 - MainProcess - __main__ [INFO] - Successful: 2
+2025-10-29 06:24:13,248 - MainProcess - __main__ [INFO] - Failed: 1
+2025-10-29 06:24:13,249 - MainProcess - __main__ [WARNING] - Failed posts:
+2025-10-29 06:24:13,249 - MainProcess - __main__ [WARNING] -   - post2: metadata.json not found
+2025-10-29 06:24:13,249 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Finished ---
+2025-10-29 06:27:33,174 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:36,831 - MainProcess - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:47,401 - MainProcess - __main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:27:47,401 - MainProcess - __main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:27:47,404 - MainProcess - __main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:27:47,405 - MainProcess - __main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:27:47,405 - MainProcess - __main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:27:47,405 - MainProcess - __main__ [INFO] - Ensured output base directory exists: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:27:47,406 - MainProcess - __main__ [INFO] - --- Starting Main Orchestration ---
+2025-10-29 06:27:47,406 - MainProcess - __main__ [INFO] - Scanning for creator folders in E:\AGENTIC_AI\Project_agent3\Agent1\Outputs...
+2025-10-29 06:27:47,408 - MainProcess - __main__ [INFO] - Found 3 post folders to process.
+2025-10-29 06:27:47,408 - MainProcess - __main__ [INFO] - Initializing multiprocessing pool with 12 workers.
+2025-10-29 06:27:48,292 - SpawnPoolWorker-1 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,296 - SpawnPoolWorker-2 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,328 - SpawnPoolWorker-5 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,335 - SpawnPoolWorker-6 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,337 - SpawnPoolWorker-3 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,359 - SpawnPoolWorker-7 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,364 - SpawnPoolWorker-8 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,365 - SpawnPoolWorker-4 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,391 - SpawnPoolWorker-10 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,409 - SpawnPoolWorker-9 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,452 - SpawnPoolWorker-11 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:48,465 - SpawnPoolWorker-12 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 06:27:57,922 - SpawnPoolWorker-8 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:57,973 - SpawnPoolWorker-2 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:57,979 - SpawnPoolWorker-12 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:57,994 - SpawnPoolWorker-4 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:57,999 - SpawnPoolWorker-5 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,003 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,005 - SpawnPoolWorker-1 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,046 - SpawnPoolWorker-11 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,047 - SpawnPoolWorker-9 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,073 - SpawnPoolWorker-6 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,197 - SpawnPoolWorker-3 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:27:58,233 - SpawnPoolWorker-7 - modules.analysis [INFO] - Gemini client configured for model: gemini-flash-latest
+2025-10-29 06:28:19,210 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,211 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,212 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,213 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,215 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,217 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,217 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,218 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,220 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,221 - SpawnPoolWorker-10 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,222 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,222 - SpawnPoolWorker-10 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,224 - SpawnPoolWorker-3 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,225 - SpawnPoolWorker-3 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,226 - SpawnPoolWorker-10 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,229 - SpawnPoolWorker-3 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,255 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,257 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,260 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,262 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,264 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,266 - SpawnPoolWorker-12 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,266 - SpawnPoolWorker-12 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,269 - SpawnPoolWorker-12 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,303 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,305 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,309 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,311 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,312 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,313 - SpawnPoolWorker-11 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,314 - SpawnPoolWorker-11 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,317 - SpawnPoolWorker-11 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,331 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,332 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,335 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,335 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,337 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,340 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,341 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,342 - SpawnPoolWorker-2 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,342 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,343 - SpawnPoolWorker-2 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,344 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,346 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,346 - SpawnPoolWorker-2 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,347 - SpawnPoolWorker-5 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,348 - SpawnPoolWorker-5 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,351 - SpawnPoolWorker-5 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,393 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,401 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,405 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,408 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,408 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,409 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,409 - SpawnPoolWorker-8 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,410 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,410 - SpawnPoolWorker-8 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,411 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,411 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,413 - SpawnPoolWorker-8 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,413 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,415 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,416 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,416 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,417 - SpawnPoolWorker-6 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,417 - SpawnPoolWorker-6 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,418 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,421 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,422 - SpawnPoolWorker-6 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,425 - SpawnPoolWorker-4 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,427 - SpawnPoolWorker-4 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,430 - SpawnPoolWorker-4 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,434 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,435 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,441 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,444 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,444 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,445 - SpawnPoolWorker-1 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,446 - SpawnPoolWorker-1 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,449 - SpawnPoolWorker-1 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,458 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,458 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,463 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,465 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,465 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,469 - SpawnPoolWorker-7 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,472 - SpawnPoolWorker-7 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,476 - SpawnPoolWorker-7 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:19,482 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 06:28:19,487 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 06:28:19,493 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 06:28:19,495 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 06:28:19,496 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 06:28:19,499 - SpawnPoolWorker-9 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 06:28:19,500 - SpawnPoolWorker-9 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 06:28:19,502 - SpawnPoolWorker-9 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:28:24,062 - SpawnPoolWorker-10 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,063 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Starting processing.
+2025-10-29 06:28:24,064 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Found media: Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4, Type: reel
+2025-10-29 06:28:24,065 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Output JSON already exists. Skipping.
+2025-10-29 06:28:24,065 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Starting processing.
+2025-10-29 06:28:24,066 - SpawnPoolWorker-12 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,067 - SpawnPoolWorker-12 - __mp_main__ [INFO] - [c2/post1] Starting processing.
+2025-10-29 06:28:24,067 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Found media: 👢🥄 🐈🥄#beatboxing #bootsandcats #beatbox #marathi #tutorial #beatboxindia #beats #spoon #cat .mp4, Type: reel
+2025-10-29 06:28:24,067 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Starting Gemini analysis...
+2025-10-29 06:28:24,068 - SpawnPoolWorker-12 - __mp_main__ [INFO] - [c2/post1] Found media: Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4, Type: reel
+2025-10-29 06:28:24,068 - SpawnPoolWorker-12 - __mp_main__ [INFO] - [c2/post1] Output JSON already exists. Skipping.
+2025-10-29 06:28:24,069 - SpawnPoolWorker-10 - modules.analysis [INFO] - Uploading media file: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs\c1\post2\👢🥄 🐈🥄#beatboxing #bootsandcats #beatbox #marathi #tutorial #beatboxindia #beats #spoon #cat .mp4...
+2025-10-29 06:28:24,070 - SpawnPoolWorker-10 - modules.analysis [INFO] - Media file size: 10.96 MB
+2025-10-29 06:28:24,107 - SpawnPoolWorker-3 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,108 - SpawnPoolWorker-11 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,181 - SpawnPoolWorker-6 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,209 - SpawnPoolWorker-7 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,210 - SpawnPoolWorker-5 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,216 - SpawnPoolWorker-8 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,219 - SpawnPoolWorker-9 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,256 - SpawnPoolWorker-2 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,293 - SpawnPoolWorker-1 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:24,525 - SpawnPoolWorker-4 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 06:28:43,178 - SpawnPoolWorker-10 - modules.analysis [INFO] - Started upload for '👢🥄 🐈🥄#beatboxing #bootsandcats #beatbox #marathi #tutorial #beatboxindia #beats #spoon #cat .mp4' as: https://generativelanguage.googleapis.com/v1beta/files/7ae1odfxq5wa
+2025-10-29 06:28:43,178 - SpawnPoolWorker-10 - modules.analysis [INFO] - Waiting for media processing... (Attempt 1/15) URI: https://generativelanguage.googleapis.com/v1beta/files/7ae1odfxq5wa
+2025-10-29 06:28:49,602 - SpawnPoolWorker-10 - modules.analysis [INFO] - Media file is active and ready: https://generativelanguage.googleapis.com/v1beta/files/7ae1odfxq5wa
+2025-10-29 06:28:49,602 - SpawnPoolWorker-10 - modules.analysis [INFO] - Calling Gemini (gemini-flash-latest) - Attempt 1/3
+2025-10-29 06:29:09,150 - SpawnPoolWorker-10 - modules.analysis [INFO] - Gemini response parsed and validated successfully.
+2025-10-29 06:29:09,150 - SpawnPoolWorker-10 - modules.analysis [INFO] - Deleting uploaded media file: https://generativelanguage.googleapis.com/v1beta/files/7ae1odfxq5wa
+2025-10-29 06:29:11,068 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Gemini analysis successful.
+2025-10-29 06:29:11,068 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Generating text for embedding...
+2025-10-29 06:29:11,069 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Generating embedding...
+2025-10-29 06:29:11,158 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Embedding generated successfully.
+2025-10-29 06:29:11,159 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Assembling final JSON...
+2025-10-29 06:29:11,159 - SpawnPoolWorker-10 - __mp_main__ [WARNING] - [c1/post2] Cannot calculate engagement rate (views=None, followers=None). Setting to 0.0.
+2025-10-29 06:29:11,160 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Saving output JSON...
+2025-10-29 06:29:11,162 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post2] Successfully saved output to E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators\c1\post2.json
+2025-10-29 06:29:11,301 - MainProcess - __main__ [INFO] - --- Processing Complete ---
+2025-10-29 06:29:11,302 - MainProcess - __main__ [INFO] - Total time: 83.90 seconds
+2025-10-29 06:29:11,302 - MainProcess - __main__ [INFO] - Processed: 3 posts
+2025-10-29 06:29:11,303 - MainProcess - __main__ [INFO] - Successful: 3
+2025-10-29 06:29:11,303 - MainProcess - __main__ [INFO] - Failed: 0
+2025-10-29 06:29:11,303 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Finished ---
+2025-10-29 09:43:37,743 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:43:37,771 - MainProcess - __main__ [ERROR] - FATAL: Failed to import project modules: No module named 'google.generativeai'
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\agent2_processor.py", line 40, in <module>
+    from modules.analysis import analyze_post_with_gemini
+  File "E:\AGENTIC_AI\Project_agent3\Agent2\modules\analysis.py", line 1, in <module>
+    import google.generativeai as genai
+ModuleNotFoundError: No module named 'google.generativeai'
+2025-10-29 09:43:48,546 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:43:58,257 - MainProcess - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:40,964 - MainProcess - __main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:44:40,964 - MainProcess - __main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:44:40,979 - MainProcess - __main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:44:40,980 - MainProcess - __main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:44:40,980 - MainProcess - __main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:44:40,981 - MainProcess - __main__ [INFO] - Ensured output base directory exists: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:44:40,981 - MainProcess - __main__ [INFO] - --- Starting Main Orchestration ---
+2025-10-29 09:44:40,981 - MainProcess - __main__ [INFO] - Scanning for creator folders in E:\AGENTIC_AI\Project_agent3\Agent1\Outputs...
+2025-10-29 09:44:40,983 - MainProcess - __main__ [INFO] - Found 3 post folders to process.
+2025-10-29 09:44:40,983 - MainProcess - __main__ [INFO] - Initializing multiprocessing pool with 12 workers.
+2025-10-29 09:44:41,800 - SpawnPoolWorker-3 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,821 - SpawnPoolWorker-2 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,827 - SpawnPoolWorker-1 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,837 - SpawnPoolWorker-5 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,864 - SpawnPoolWorker-9 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,864 - SpawnPoolWorker-6 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,867 - SpawnPoolWorker-4 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,872 - SpawnPoolWorker-7 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,884 - SpawnPoolWorker-11 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,901 - SpawnPoolWorker-8 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,919 - SpawnPoolWorker-10 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:41,930 - SpawnPoolWorker-12 - __mp_main__ [INFO] - --- Agent 2 Processor Starting ---
+2025-10-29 09:44:51,861 - SpawnPoolWorker-7 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,865 - SpawnPoolWorker-9 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,875 - SpawnPoolWorker-3 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,878 - SpawnPoolWorker-11 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,890 - SpawnPoolWorker-5 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,938 - SpawnPoolWorker-1 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:51,981 - SpawnPoolWorker-12 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:52,077 - SpawnPoolWorker-10 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:52,086 - SpawnPoolWorker-4 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:52,108 - SpawnPoolWorker-2 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:52,122 - SpawnPoolWorker-8 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:44:52,172 - SpawnPoolWorker-6 - modules.analysis [ERROR] - GEMINI_API_KEY environment variable not set. Cannot initialize Gemini client.
+2025-10-29 09:45:14,544 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,544 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,546 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,548 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,550 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,552 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,552 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,554 - SpawnPoolWorker-8 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,554 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,556 - SpawnPoolWorker-8 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,556 - SpawnPoolWorker-12 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,558 - SpawnPoolWorker-8 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,559 - SpawnPoolWorker-12 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,561 - SpawnPoolWorker-12 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,561 - SpawnPoolWorker-8 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,565 - SpawnPoolWorker-12 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,623 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,624 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,628 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,630 - SpawnPoolWorker-5 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,630 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,630 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+rs
+2025-10-29 09:45:14,632 - SpawnPoolWorker-5 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,633 - SpawnPoolWorker-5 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,634 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,637 - SpawnPoolWorker-5 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,637 - SpawnPoolWorker-7 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,638 - SpawnPoolWorker-7 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,639 - SpawnPoolWorker-7 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,643 - SpawnPoolWorker-7 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,644 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,646 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,651 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,652 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,653 - SpawnPoolWorker-2 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,654 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,654 - SpawnPoolWorker-2 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,655 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,655 - SpawnPoolWorker-2 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,658 - SpawnPoolWorker-2 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,659 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,661 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,661 - SpawnPoolWorker-3 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,662 - SpawnPoolWorker-3 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,663 - SpawnPoolWorker-3 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,666 - SpawnPoolWorker-3 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,708 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,709 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,712 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,714 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,714 - SpawnPoolWorker-10 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,715 - SpawnPoolWorker-10 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,716 - SpawnPoolWorker-10 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,719 - SpawnPoolWorker-10 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,732 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,732 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,736 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,737 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,738 - SpawnPoolWorker-11 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,738 - SpawnPoolWorker-11 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,739 - SpawnPoolWorker-11 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,739 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,739 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,741 - SpawnPoolWorker-11 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,743 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,745 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,745 - SpawnPoolWorker-1 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,746 - SpawnPoolWorker-1 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,746 - SpawnPoolWorker-1 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,749 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,750 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+M-L6-v2
+2025-10-29 09:45:14,754 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,755 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,756 - SpawnPoolWorker-4 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,757 - SpawnPoolWorker-4 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,757 - SpawnPoolWorker-4 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,761 - SpawnPoolWorker-4 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,770 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,771 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,772 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Project modules imported successfully.
+2025-10-29 09:45:14,773 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent2\config.yaml
+2025-10-29 09:45:14,775 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Configuration loaded successfully.
+2025-10-29 09:45:14,776 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,777 - SpawnPoolWorker-9 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,778 - SpawnPoolWorker-9 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,778 - SpawnPoolWorker-9 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,778 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Input base directory: E:\AGENTIC_AI\Project_agent3\Agent1\Outputs
+2025-10-29 09:45:14,779 - SpawnPoolWorker-6 - __mp_main__ [INFO] - Output base directory: E:\AGENTIC_AI\Project_agent3\agent3_draft\data\creators
+2025-10-29 09:45:14,780 - SpawnPoolWorker-6 - modules.embedding [INFO] - Attempting to load primary embedding model: all-MiniLM-L6-v2
+2025-10-29 09:45:14,780 - SpawnPoolWorker-6 - modules.embedding [INFO] - Auto-selected device: cpu
+2025-10-29 09:45:14,781 - SpawnPoolWorker-9 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:14,783 - SpawnPoolWorker-6 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 09:45:20,082 - SpawnPoolWorker-10 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,082 - SpawnPoolWorker-9 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,082 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Starting processing.
+2025-10-29 09:45:20,083 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c1/post2] Starting processing.
+2025-10-29 09:45:20,090 - SpawnPoolWorker-2 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,090 - SpawnPoolWorker-2 - __mp_main__ [INFO] - [c2/post1] Starting processing.
+2025-10-29 09:45:20,091 - SpawnPoolWorker-7 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,097 - SpawnPoolWorker-3 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,101 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Found media: Kya pata kya karti rehti hu 😂#beatbox #beatboxing #tutorial.mp4, Type: reel
+2025-10-29 09:45:20,101 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c1/post2] Found media: 👢🥄 🐈🥄#beatboxing #bootsandcats #beatbox #marathi #tutorial #beatboxindia #beats #spoon #cat .mp4, Type: reel
+2025-10-29 09:45:20,102 - SpawnPoolWorker-10 - __mp_main__ [INFO] - [c1/post1] Output JSON already exists. Skipping.
+2025-10-29 09:45:20,102 - SpawnPoolWorker-9 - __mp_main__ [INFO] - [c1/post2] Output JSON already exists. Skipping.
+2025-10-29 09:45:20,107 - SpawnPoolWorker-2 - __mp_main__ [INFO] - [c2/post1] Found media: Please apni film knowledge apne paas rakh🙏😭#dasoham.mp4, Type: reel
+2025-10-29 09:45:20,108 - SpawnPoolWorker-8 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,108 - SpawnPoolWorker-6 - modules.embedding [INFO] - Successfully loaded primary model 'all-MiniLM-L6-v2' onto cpu
+2025-10-29 09:45:20,108 - SpawnPoolWorker-2 - __mp_main__ [INFO] - [c2/post1] Output JSON already exists. Skipping.
+2025-10-29 09:45:20,221 - MainProcess - __main__ [INFO] - --- Processing Complete ---
+2025-10-29 09:45:20,222 - MainProcess - __main__ [INFO] - Total time: 39.24 seconds
+2025-10-29 09:45:20,222 - MainProcess - __main__ [INFO] - Processed: 3 posts
+2025-10-29 09:45:20,222 - MainProcess - __main__ [INFO] - Successful: 3
+2025-10-29 09:45:20,223 - MainProcess - __main__ [INFO] - Failed: 0
+2025-10-29 09:45:20,223 - MainProcess - __main__ [INFO] - --- Agent 2 Processor Finished ---

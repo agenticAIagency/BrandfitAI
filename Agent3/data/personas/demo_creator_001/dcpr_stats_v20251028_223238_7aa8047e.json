@@ -1,0 +1,111 @@
+{
+  "total_posts_analyzed": 5,
+  "first_post_date": "2025-09-25T10:40:00Z",
+  "last_post_date": "2025-10-03T11:00:00Z",
+  "sum_engagement_rate": 0.44399999999999995,
+  "sum_likes": 46790,
+  "sum_comments": 1100,
+  "sum_saves": 990,
+  "sum_aesthetic_score": 24.299999999999997,
+  "aesthetic_score_count": 3,
+  "sum_text_overlay_presence": 3,
+  "topic_counts": {
+    "Nutrition": 2,
+    "Fitness": 2,
+    "Lifestyle": 1
+  },
+  "tone_counts": {
+    "Encouraging": 1,
+    "Motivational": 3,
+    "Informational": 2,
+    "Instructional": 2,
+    "Positive": 2,
+    "Educational": 1
+  },
+  "emotion_counts": {
+    "discipline": 2,
+    "consistency": 1,
+    "motivation": 2,
+    "strength": 1,
+    "relaxation": 1,
+    "wellness": 1,
+    "self-improvement": 1,
+    "curiosity": 1,
+    "health-conscious": 1
+  },
+  "audience_intent_counts": {},
+  "lighting_tags": {
+    "Natural daylight": 3,
+    "Bright artificial light": 2
+  },
+  "camera_style_tags": {
+    "Static overhead shot": 1,
+    "Low-angle shot": 1,
+    "Close-up product shot": 1,
+    "Handheld close-ups with fast transitions": 1,
+    "Static overhead shot with quick cuts": 1
+  },
+  "composition_tags": {
+    "Flat lay": 1,
+    "Single subject": 1,
+    "Product focused": 1
+  },
+  "color_palette": {
+    "#FBEEC1": 1,
+    "#8CC152": 1,
+    "#333333": 1,
+    "#D32F2F": 1,
+    "#00BFFF": 1,
+    "#FFFFFF": 1,
+    "#F0E68C": 1
+  },
+  "music_type_tags": {
+    "Fast-tempo EDM background": 1,
+    "Calm lofi background": 1
+  },
+  "speech_style_tags": {},
+  "caption_tone_tags": {
+    "Encouraging, disciplined": 1,
+    "Motivational, proud": 1,
+    "Promotional, calm": 1,
+    "Motivational, energetic": 1,
+    "Helpful, simple": 1
+  },
+  "keyword_counts": {
+    "#healthybreakfast": 1,
+    "#fitness": 3,
+    "#discipline": 1,
+    "#gym": 1,
+    "#motivation": 1,
+    "#deadlift": 1,
+    "#lifestyle": 1,
+    "#hydration": 1,
+    "#ad": 1,
+    "#sponsored": 1,
+    "#gymmotivation": 1,
+    "#backday": 1,
+    "#recipe": 1,
+    "#healthy": 1,
+    "#nutrition": 1,
+    "#proteinshake": 1
+  },
+  "embedding_accumulator": [
+    0.7100000000000001,
+    0.95,
+    0.67,
+    0.35000000000000003,
+    0.47000000000000003
+  ],
+  "embedding_count": 5,
+  "media_type_counts": {
+    "post": 3,
+    "reel": 2
+  },
+  "posting_dates": [
+    "2025-09-25T10:40:00Z",
+    "2025-09-27T18:30:00Z",
+    "2025-09-29T12:00:00Z",
+    "2025-10-01T15:20:00Z",
+    "2025-10-03T11:00:00Z"
+  ]
+}

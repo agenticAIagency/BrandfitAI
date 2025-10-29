@@ -1,0 +1,142 @@
+{
+  "creator_id": "demo_creator_002",
+  "persona_version": "v20251029_044657_188da5b2",
+  "identity_summary": {
+    "short_summary": "A creator focused on productivity and tech, offering inspirational content with a calm and organized tone.",
+    "persona_keywords": [
+      "productivity",
+      "tech",
+      "organization",
+      "focus",
+      "inspiration"
+    ]
+  },
+  "content_intelligence": {
+    "dominant_topics": [
+      "Productivity",
+      "Tech Review",
+      "Productivity Software"
+    ],
+    "topic_distribution": {
+      "Productivity": 0.333,
+      "Tech Review": 0.167,
+      "Productivity Software": 0.167,
+      "Workspace Setup": 0.167,
+      "Daily Workflow / Day in the Life": 0.167
+    },
+    "tone_distribution": {
+      "Informational": 0.333,
+      "Educational": 0.333,
+      "Inspirational, conversational": 0.167,
+      "Direct, helpful": 0.167,
+      "Instructional, clear": 0.167,
+      "Positive, encouraging": 0.167,
+      "Informative, aspirational": 0.167,
+      "Calm, narrative": 0.167,
+      "Informative": 0.167,
+      "Enthusiastic": 0.167,
+      "Positive, conclusive": 0.167
+    },
+    "emotional_profile": {
+      "dominant_emotions": [
+        "organization",
+        "focus",
+        "inspiration"
+      ],
+      "average_emotional_intensity": 0.58
+    },
+    "audience_intent_targeted": [
+      "organization",
+      "focus",
+      "inspiration",
+      "calm",
+      "curiosity"
+    ]
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": [
+        "Warm artificial light",
+        "Soft studio light",
+        "Digital screen light",
+        "Natural daylight (window)",
+        "Screencapture / Softbox on face"
+      ],
+      "camera_styles": [
+        "Static, eye-level",
+        "Close-up product shots",
+        "Screen capture",
+        "Wide static shot",
+        "Screencast with Picture-in-Picture (PiP)"
+      ],
+      "dominant_color_palette": [
+        "#FFFFFF",
+        "#333333",
+        "#5DADE2",
+        "#C0C0C0",
+        "#000000",
+        "#EAEAEA",
+        "#F0F0F0",
+        "#4A4A4A"
+      ],
+      "composition_styles": [
+        "Symmetrical, clean",
+        "Product-focused",
+        "Screenshot layout",
+        "Centered desk view"
+      ]
+    },
+    "audio_signatures": {
+      "music_types": [
+        "Lofi hip hop background",
+        "Lo-fi instrumental background"
+      ],
+      "speech_style": "Music-focused (minimal speech)"
+    },
+    "linguistic_signatures": {
+      "caption_tones": [
+        "Informational, calm",
+        "Analytical, informational",
+        "Helpful, clear",
+        "Conversational, inviting",
+        "Helpful, direct, engaging"
+      ],
+      "common_keywords": [
+        "#productivity",
+        "#tech",
+        "#wfh",
+        "#notion",
+        "#software",
+        "#workflow",
+        "#minimalism",
+        "#techreview",
+        "#laptop",
+        "#framework"
+      ],
+      "text_overlay_presence_rate": 0.5
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 1.75,
+    "avg_engagement_rate": 0.0843,
+    "authenticity_score": 0.57,
+    "consistency_score": 0.3,
+    "avg_aesthetic_score": 8.6,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 6
+  },
+  "persona_embedding": [
+    0.26333333333333336,
+    0.14833333333333332,
+    0.315,
+    0.19000000000000003,
+    0.22
+  ],
+  "metadata": {
+    "first_post_date": "2025-10-01T14:00:00Z",
+    "last_post_date": "2025-10-25T16:30:00Z",
+    "last_updated": "2025-10-29T04:46:57.538160Z",
+    "data_source": "Instagram",
+    "language": "English"
+  }
+}

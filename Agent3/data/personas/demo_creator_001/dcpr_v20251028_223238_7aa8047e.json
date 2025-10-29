@@ -1,0 +1,130 @@
+{
+  "creator_id": "demo_creator_001",
+  "persona_version": "v20251028_223238_7aa8047e",
+  "identity_summary": {
+    "short_summary": "This creator embodies a driven and disciplined lifestyle enthusiast, sharing expert nutrition, fitness, and wellness advice with a strong focus on motivation and consistency. Their authentic and consistent content resonates positively with their audience.",
+    "persona_keywords": [
+      "Nutrition",
+      "Fitness",
+      "Motivation",
+      "Discipline",
+      "Consistency"
+    ]
+  },
+  "content_intelligence": {
+    "dominant_topics": [
+      "Nutrition",
+      "Fitness",
+      "Lifestyle"
+    ],
+    "topic_distribution": {
+      "Nutrition": 0.4,
+      "Fitness": 0.4,
+      "Lifestyle": 0.2
+    },
+    "tone_distribution": {
+      "Encouraging": 0.2,
+      "Motivational": 0.6,
+      "Informational": 0.4,
+      "Instructional": 0.4,
+      "Positive": 0.4,
+      "Educational": 0.2
+    },
+    "emotional_profile": {
+      "dominant_emotions": [
+        "discipline",
+        "motivation",
+        "consistency"
+      ],
+      "average_emotional_intensity": 0.51
+    },
+    "audience_intent_targeted": [
+      "discipline",
+      "motivation",
+      "consistency",
+      "strength",
+      "relaxation"
+    ]
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": [
+        "Natural daylight",
+        "Bright artificial light"
+      ],
+      "camera_styles": [
+        "Static overhead shot",
+        "Low-angle shot",
+        "Close-up product shot",
+        "Handheld close-ups with fast transitions",
+        "Static overhead shot with quick cuts"
+      ],
+      "dominant_color_palette": [
+        "#FBEEC1",
+        "#8CC152",
+        "#333333",
+        "#D32F2F",
+        "#00BFFF",
+        "#FFFFFF",
+        "#F0E68C"
+      ],
+      "composition_styles": [
+        "Flat lay",
+        "Single subject",
+        "Product focused"
+      ]
+    },
+    "audio_signatures": {
+      "music_types": [
+        "Fast-tempo EDM background",
+        "Calm lofi background"
+      ],
+      "speech_style": "Music-focused (minimal speech)"
+    },
+    "linguistic_signatures": {
+      "caption_tones": [
+        "Encouraging, disciplined",
+        "Motivational, proud",
+        "Promotional, calm",
+        "Motivational, energetic",
+        "Helpful, simple"
+      ],
+      "common_keywords": [
+        "#fitness",
+        "#healthybreakfast",
+        "#discipline",
+        "#gym",
+        "#motivation",
+        "#deadlift",
+        "#lifestyle",
+        "#hydration",
+        "#ad",
+        "#sponsored"
+      ],
+      "text_overlay_presence_rate": 0.6
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 4.38,
+    "avg_engagement_rate": 0.0888,
+    "authenticity_score": 0.49,
+    "consistency_score": 0.58,
+    "avg_aesthetic_score": 8.1,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 5
+  },
+  "persona_embedding": [
+    0.14200000000000002,
+    0.19,
+    0.134,
+    0.07,
+    0.094
+  ],
+  "metadata": {
+    "first_post_date": "2025-09-25T10:40:00Z",
+    "last_post_date": "2025-10-03T11:00:00Z",
+    "last_updated": "2025-10-28T22:32:38.411886Z",
+    "data_source": "Instagram",
+    "language": "English"
+  }
+}

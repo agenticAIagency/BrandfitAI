@@ -1,0 +1,444 @@
+2025-10-29 09:49:52,018 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 09:49:54,929 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 09:49:54,929 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 09:49:59,588 - __main__ [ERROR] - --- FATAL: Failed to import Agent 3 project modules or utils: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py) ---
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 53, in <module>
+    from modules.summarization import PersonaSummarizationModule, IdentitySummary, ReflectionResult # Import reflection model too
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py)
+2025-10-29 10:02:38,724 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:02:40,888 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:02:40,888 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:02:44,864 - __main__ [ERROR] - --- FATAL: Failed to import Agent 3 project modules or utils: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py) ---
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 53, in <module>
+    from modules.summarization import PersonaSummarizationModule, IdentitySummary, ReflectionResult # Import reflection model too
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py)
+2025-10-29 10:05:34,504 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:05:40,466 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:05:40,466 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:05:40,469 - __main__ [ERROR] - --- FATAL: Failed to import Agent 3 project modules or utils: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py) ---
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 54, in <module>
+    from modules.summarization import PersonaSummarizationModule, IdentitySummary, ReflectionResult # Import reflection model too
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py)
+2025-10-29 10:05:54,254 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:06:00,711 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:06:00,711 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:06:00,720 - __main__ [ERROR] - --- FATAL: Failed to import Agent 3 project modules or utils: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py) ---
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 54, in <module>
+    from modules.summarization import PersonaSummarizationModule, IdentitySummary, ReflectionResult # Import reflection model too
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'ReflectionResult' from 'modules.summarization' (E:\AGENTIC_AI\Project_agent3\modules\summarization.py)
+2025-10-29 10:07:22,094 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:07:24,165 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:07:24,166 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:07:28,297 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:07:28,297 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:07:28,319 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:07:28,319 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:07:28,320 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:07:28,630 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:07:28,631 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:07:28,632 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:07:28,632 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:07:28,632 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:07:28,632 - __main__ [INFO] - --- Initializing ChromaDB client. Persist directory: E:\AGENTIC_AI\Project_agent3\data\vector_store ---
+2025-10-29 10:07:28,707 - chromadb.telemetry.product.posthog [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-29 10:07:28,998 - __main__ [INFO] - --- ChromaDB collections 'creator_persona_embeddings' and 'creator_post_embeddings' ready. ---
+2025-10-29 10:07:28,998 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:07:29,019 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:07:29,020 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:09:18,441 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:09:20,555 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:09:20,556 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:09:24,628 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:09:24,628 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:09:24,637 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:09:24,638 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:09:24,638 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:09:24,948 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:09:24,948 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:09:24,949 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:09:24,949 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:09:24,950 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:09:24,950 - __main__ [INFO] - --- Initializing ChromaDB client. Persist directory: E:\AGENTIC_AI\Project_agent3\data\vector_store ---
+2025-10-29 10:09:25,006 - chromadb.telemetry.product.posthog [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-29 10:09:25,158 - __main__ [INFO] - --- ChromaDB collections 'creator_persona_embeddings' and 'creator_post_embeddings' ready. ---
+2025-10-29 10:09:25,158 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:09:25,179 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:09:25,179 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:09:25,183 - __main__ [INFO] - =========================================
+2025-10-29 10:09:25,184 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:09:25,184 - __main__ [INFO] - =========================================
+2025-10-29 10:09:25,184 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:09:25,187 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:09:25,188 - __main__ [INFO] - --- Stats found for demo_creator_001. Loading...
+2025-10-29 10:09:25,200 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:09:25,202 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:09:25,203 - __main__ [INFO] - --- Looking for posts since: 2025-10-03T11:00:00Z
+2025-10-29 10:09:25,203 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:09:25,204 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:09:25,205 - __main__ [INFO] - --- [Edge Condition] No new posts for demo_creator_001. Ending workflow gracefully.
+2025-10-29 10:09:25,206 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:09:25,207 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:09:25,207 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:09:25,209 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:09:25,209 - __main__ [INFO] - --- Stats found for demo_creator_002. Loading...
+2025-10-29 10:09:25,225 - memory.store [INFO] - Loaded stats for creator demo_creator_002
+2025-10-29 10:09:25,226 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: incremental)
+2025-10-29 10:09:25,226 - __main__ [INFO] - --- Looking for posts since: 2025-10-25T16:30:00Z
+2025-10-29 10:09:25,227 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_002
+2025-10-29 10:09:25,228 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-25T16:30:00Z
+2025-10-29 10:09:25,228 - __main__ [INFO] - --- [Edge Condition] No new posts for demo_creator_002. Ending workflow gracefully.
+2025-10-29 10:09:25,229 - __main__ [ERROR] - Graph FAILED for demo_creator_002. Error: No new posts to process
+2025-10-29 10:09:25,230 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:09:25,230 - __main__ [INFO] - =========================================
+2025-10-29 10:09:25,230 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:09:25,230 - __main__ [INFO] - =========================================
+2025-10-29 10:09:25,232 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:10:06,388 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:10:08,364 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:10:08,364 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:10:12,391 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:10:12,391 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:10:12,400 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:10:12,400 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:10:12,401 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:10:12,725 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:10:12,725 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:10:12,726 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:10:12,726 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:10:12,726 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:10:12,727 - __main__ [INFO] - --- Initializing ChromaDB client. Persist directory: E:\AGENTIC_AI\Project_agent3\data\vector_store ---
+2025-10-29 10:10:12,786 - chromadb.telemetry.product.posthog [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-29 10:10:12,931 - __main__ [INFO] - --- ChromaDB collections 'creator_persona_embeddings' and 'creator_post_embeddings' ready. ---
+2025-10-29 10:10:12,932 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:10:12,952 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:10:12,952 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:10:12,955 - __main__ [INFO] - =========================================
+2025-10-29 10:10:12,956 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:10:12,956 - __main__ [INFO] - =========================================
+2025-10-29 10:10:12,956 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:10:12,958 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:10:12,959 - __main__ [INFO] - --- Stats found for demo_creator_001. Loading...
+2025-10-29 10:10:12,960 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:10:12,961 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:10:12,962 - __main__ [INFO] - --- Looking for posts since: 2025-10-03T11:00:00Z
+2025-10-29 10:10:12,963 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:10:12,963 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:10:12,964 - __main__ [INFO] - --- [Edge Condition] No new posts for demo_creator_001. Ending workflow gracefully.
+2025-10-29 10:10:12,965 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:10:12,965 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:10:12,966 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:10:12,967 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:10:12,967 - __main__ [INFO] - --- No stats found for demo_creator_002. Proceeding with full build.
+2025-10-29 10:10:12,967 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: full)
+2025-10-29 10:10:12,968 - modules.ingestion [INFO] - Found 6 posts for creator demo_creator_002
+2025-10-29 10:10:13,056 - modules.ingestion [INFO] - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 10:10:13,057 - __main__ [INFO] - --- Loaded 6 posts for full build.
+2025-10-29 10:10:13,058 - __main__ [INFO] - --- [Node: calculate_dcpr] Calculating DCPR for demo_creator_002 (Type: full)
+2025-10-29 10:10:13,059 - memory.versioning [INFO] - Created version v20251029_044013_ccdc2e2c for creator demo_creator_002
+2025-10-29 10:10:13,060 - __main__ [INFO] - --- Calculating from scratch using 6 posts.
+2025-10-29 10:10:13,060 - modules.dcpr_calculator [INFO] - Creating DCPR from scratch with 6 posts
+2025-10-29 10:10:13,060 - modules.dcpr_calculator [INFO] - DCPR creation complete
+2025-10-29 10:10:13,061 - __main__ [INFO] - --- DCPR calculation complete. Version: v20251029_044013_ccdc2e2c
+2025-10-29 10:10:13,062 - __main__ [INFO] - --- [Node: summarize_persona] Summarizing persona for demo_creator_002...
+2025-10-29 10:10:13,062 - modules.summarization [INFO] - Generating identity summary
+2025-10-29 10:10:30,456 - httpx [INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-29 10:10:30,458 - modules.summarization [INFO] - Ollama response received, parsing...
+2025-10-29 10:10:30,458 - modules.summarization [INFO] - Identity summary generated and validated.
+2025-10-29 10:10:30,459 - __main__ [INFO] - --- Summarization complete for demo_creator_002.
+2025-10-29 10:10:30,461 - __main__ [INFO] - --- [Node: reflect_on_summary] Reflecting on summary for demo_creator_002...
+2025-10-29 10:10:30,461 - __main__ [ERROR] - --- Reflection call failed for demo_creator_002: name 'ReflectionResult' is not defined
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 264, in reflect_on_summary
+    reflection_result = ReflectionResult(critique="Looks okay.", score=0.8, looks_good=True)
+                        ^^^^^^^^^^^^^^^^
+NameError: name 'ReflectionResult' is not defined
+2025-10-29 10:10:30,462 - __main__ [INFO] - --- [Edge Condition] Reflection passed (Score: 0.70).
+2025-10-29 10:10:30,463 - __main__ [ERROR] - Unhandled exception for demo_creator_002: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 544, in run_agent3_graph
+    final_state = await app.ainvoke(initial_state, {"recursion_limit": 5})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3182, in ainvoke
+    async for chunk in self.astream(
+    ...<29 lines>...
+            chunks.append(chunk)
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3043, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2025-10-29 10:10:30,478 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:10:30,478 - __main__ [INFO] - =========================================
+2025-10-29 10:10:30,479 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:10:30,479 - __main__ [INFO] - =========================================
+2025-10-29 10:10:30,481 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:13:20,828 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:13:23,053 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:13:23,053 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:13:27,445 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:13:27,447 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:13:27,455 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:13:27,456 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:13:27,456 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:13:27,801 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:13:27,801 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:13:27,802 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:13:27,802 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:13:27,802 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:13:27,802 - __main__ [INFO] - --- Initializing ChromaDB client. Persist directory: E:\AGENTIC_AI\Project_agent3\data\vector_store ---
+2025-10-29 10:13:27,869 - chromadb.telemetry.product.posthog [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-10-29 10:13:28,024 - __main__ [INFO] - --- ChromaDB collections 'creator_persona_embeddings' and 'creator_post_embeddings' ready. ---
+2025-10-29 10:13:28,024 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:13:28,040 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:13:28,040 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:13:28,044 - __main__ [INFO] - =========================================
+2025-10-29 10:13:28,044 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:13:28,045 - __main__ [INFO] - =========================================
+2025-10-29 10:13:28,045 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:13:28,047 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:13:28,047 - __main__ [INFO] - --- Stats found for demo_creator_001. Loading...
+2025-10-29 10:13:28,049 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:13:28,050 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:13:28,050 - __main__ [INFO] - --- Looking for posts since: 2025-10-03T11:00:00Z
+2025-10-29 10:13:28,051 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:13:28,052 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:13:28,053 - __main__ [INFO] - --- [Edge Condition] No new posts for demo_creator_001. Ending workflow gracefully.
+2025-10-29 10:13:28,054 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:13:28,054 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:13:28,054 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:13:28,055 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:13:28,056 - __main__ [INFO] - --- No stats found for demo_creator_002. Proceeding with full build.
+2025-10-29 10:13:28,057 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: full)
+2025-10-29 10:13:28,059 - modules.ingestion [INFO] - Found 6 posts for creator demo_creator_002
+2025-10-29 10:13:28,061 - modules.ingestion [INFO] - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 10:13:28,061 - __main__ [INFO] - --- Loaded 6 posts for full build.
+2025-10-29 10:13:28,063 - __main__ [INFO] - --- [Node: calculate_dcpr] Calculating DCPR for demo_creator_002 (Type: full)
+2025-10-29 10:13:28,064 - memory.versioning [INFO] - Created version v20251029_044328_b3752a4c for creator demo_creator_002
+2025-10-29 10:13:28,064 - __main__ [INFO] - --- Calculating from scratch using 6 posts.
+2025-10-29 10:13:28,064 - modules.dcpr_calculator [INFO] - Creating DCPR from scratch with 6 posts
+2025-10-29 10:13:28,065 - modules.dcpr_calculator [INFO] - DCPR creation complete
+2025-10-29 10:13:28,065 - __main__ [INFO] - --- DCPR calculation complete. Version: v20251029_044328_b3752a4c
+2025-10-29 10:13:28,067 - __main__ [INFO] - --- [Node: summarize_persona] Summarizing persona for demo_creator_002...
+2025-10-29 10:13:28,067 - modules.summarization [INFO] - Generating identity summary
+2025-10-29 10:13:31,375 - httpx [INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-29 10:13:31,376 - modules.summarization [INFO] - Ollama response received, parsing...
+2025-10-29 10:13:31,377 - modules.summarization [INFO] - Identity summary generated and validated.
+2025-10-29 10:13:31,377 - __main__ [INFO] - --- Summarization complete for demo_creator_002.
+2025-10-29 10:13:31,379 - __main__ [INFO] - --- [Node: reflect_on_summary] Reflecting on summary for demo_creator_002...
+2025-10-29 10:13:31,379 - __main__ [INFO] - --- Reflection Score: 0.80, Critique: Mock: Looks okay. The tone matches the metrics.
+2025-10-29 10:13:31,380 - __main__ [INFO] - --- [Edge Condition] Reflection passed (Score: 0.80).
+2025-10-29 10:13:31,381 - __main__ [ERROR] - Unhandled exception for demo_creator_002: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 480, in run_agent3_graph
+    final_state = await app.ainvoke(initial_state, {"recursion_limit": 5})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3182, in ainvoke
+    async for chunk in self.astream(
+    ...<29 lines>...
+            chunks.append(chunk)
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3043, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2025-10-29 10:13:31,384 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:13:31,385 - __main__ [INFO] - =========================================
+2025-10-29 10:13:31,385 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:13:31,386 - __main__ [INFO] - =========================================
+2025-10-29 10:13:31,389 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:15:06,985 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:15:09,032 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:15:09,032 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:15:13,417 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:15:13,418 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:15:13,426 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:15:13,427 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:15:13,427 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:15:13,742 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:15:13,742 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:15:13,743 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:15:13,743 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:15:13,743 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:15:13,743 - __main__ [WARNING] - --- Vector DB storage is intentionally bypassed. Saving only to JSON. ---
+2025-10-29 10:15:13,743 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:15:13,756 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:15:13,756 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:15:13,759 - __main__ [INFO] - =========================================
+2025-10-29 10:15:13,759 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:15:13,760 - __main__ [INFO] - =========================================
+2025-10-29 10:15:13,760 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:15:13,762 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:15:13,763 - __main__ [INFO] - --- Stats found for demo_creator_001. Loading...
+2025-10-29 10:15:13,763 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:15:13,764 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:15:13,765 - __main__ [INFO] - --- Looking for posts since: 2025-10-03T11:00:00Z
+2025-10-29 10:15:13,766 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:15:13,766 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:15:13,768 - __main__ [INFO] - --- [Edge Condition] No new posts for demo_creator_001. Ending workflow gracefully.
+2025-10-29 10:15:13,770 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:15:13,770 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:15:13,770 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:15:13,771 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:15:13,772 - __main__ [INFO] - --- No stats found for demo_creator_002. Proceeding with full build.
+2025-10-29 10:15:13,772 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: full)
+2025-10-29 10:15:13,773 - modules.ingestion [INFO] - Found 6 posts for creator demo_creator_002
+2025-10-29 10:15:13,777 - modules.ingestion [INFO] - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 10:15:13,778 - __main__ [INFO] - --- Loaded 6 posts for full build.
+2025-10-29 10:15:13,779 - __main__ [INFO] - --- [Node: calculate_dcpr] Calculating DCPR for demo_creator_002 (Type: full)
+2025-10-29 10:15:13,780 - memory.versioning [INFO] - Created version v20251029_044513_0d188eaa for creator demo_creator_002
+2025-10-29 10:15:13,780 - modules.dcpr_calculator [INFO] - Creating DCPR from scratch with 6 posts
+2025-10-29 10:15:13,780 - modules.dcpr_calculator [INFO] - DCPR creation complete
+2025-10-29 10:15:13,781 - __main__ [INFO] - --- DCPR calculation complete. Version: v20251029_044513_0d188eaa
+2025-10-29 10:15:13,782 - __main__ [INFO] - --- [Node: summarize_persona] Summarizing persona for demo_creator_002...
+2025-10-29 10:15:13,782 - modules.summarization [INFO] - Generating identity summary
+2025-10-29 10:15:16,415 - httpx [INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-29 10:15:16,416 - modules.summarization [INFO] - Ollama response received, parsing...
+2025-10-29 10:15:16,417 - modules.summarization [INFO] - Identity summary generated and validated.
+2025-10-29 10:15:16,417 - __main__ [INFO] - --- Summarization complete for demo_creator_002.
+2025-10-29 10:15:16,418 - __main__ [INFO] - --- [Node: validate_and_save_json] Validating/Saving JSON for demo_creator_002 (Ver: v20251029_044513_0d188eaa)...
+2025-10-29 10:15:16,418 - modules.validation [INFO] - Validating DCPR output
+2025-10-29 10:15:16,418 - modules.validation [INFO] - DCPR validation passed
+2025-10-29 10:15:16,423 - memory.store [INFO] - Saved DCPR and stats for creator demo_creator_002, version v20251029_044513_0d188eaa
+2025-10-29 10:15:16,423 - __main__ [INFO] - --- Successfully validated and saved JSON version v20251029_044513_0d188eaa
+2025-10-29 10:15:16,425 - __main__ [ERROR] - Unhandled exception for demo_creator_002: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\agent3_graph.py", line 385, in run_agent3_graph
+    final_state = await app.ainvoke(initial_state, {"recursion_limit": 5})
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3182, in ainvoke
+    async for chunk in self.astream(
+    ...<29 lines>...
+            chunks.append(chunk)
+  File "E:\AGENTIC_AI\Project_agent3\.venv\Lib\site-packages\langgraph\pregel\main.py", line 3043, in astream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 5 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/GRAPH_RECURSION_LIMIT
+2025-10-29 10:15:16,428 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:15:16,429 - __main__ [INFO] - =========================================
+2025-10-29 10:15:16,429 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:15:16,429 - __main__ [INFO] - =========================================
+2025-10-29 10:15:16,432 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:16:33,127 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:16:35,097 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:16:35,097 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:16:39,060 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:16:39,062 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:16:39,070 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:16:39,071 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:16:39,071 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:16:39,384 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:16:39,385 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:16:39,385 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:16:39,385 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:16:39,386 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:16:39,386 - __main__ [WARNING] - --- Vector DB storage is intentionally bypassed. Saving only to JSON. ---
+2025-10-29 10:16:39,386 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:16:39,397 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:16:39,397 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:16:39,400 - __main__ [INFO] - =========================================
+2025-10-29 10:16:39,400 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:16:39,401 - __main__ [INFO] - =========================================
+2025-10-29 10:16:39,401 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:16:39,402 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:16:39,403 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:16:39,405 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:16:39,406 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:16:39,406 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:16:39,408 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:16:39,409 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:16:39,409 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:16:39,410 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:16:39,412 - memory.store [INFO] - Loaded stats for creator demo_creator_002
+2025-10-29 10:16:39,413 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: incremental)
+2025-10-29 10:16:39,414 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_002
+2025-10-29 10:16:39,414 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-25T16:30:00Z
+2025-10-29 10:16:39,416 - __main__ [ERROR] - Graph FAILED for demo_creator_002. Error: No new posts to process
+2025-10-29 10:16:39,416 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:16:39,417 - __main__ [INFO] - =========================================
+2025-10-29 10:16:39,417 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:16:39,417 - __main__ [INFO] - =========================================
+2025-10-29 10:16:39,419 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:16:51,219 - __main__ [INFO] - --- agent3_graph.py logging configured ---
+2025-10-29 10:16:53,240 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:16:53,241 - __main__ [INFO] - --- Importing Agent 3 project modules ---
+2025-10-29 10:16:57,187 - __main__ [INFO] - --- Agent 3 project modules imported successfully ---
+2025-10-29 10:16:57,188 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\config.yaml ---
+2025-10-29 10:16:57,197 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:16:57,197 - modules.ingestion [INFO] - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 10:16:57,197 - modules.dcpr_calculator [INFO] - DCPRCalculator initialized
+2025-10-29 10:16:57,505 - modules.summarization [INFO] - PersonaSummarizationModule initialized with Ollama (Manual Mode): llama3.2
+2025-10-29 10:16:57,506 - modules.validation [INFO] - ValidationModule initialized with DCPR schema
+2025-10-29 10:16:57,506 - memory.store [INFO] - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 10:16:57,507 - memory.versioning [INFO] - VersionManager initialized
+2025-10-29 10:16:57,507 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:16:57,507 - __main__ [WARNING] - --- Vector DB storage is intentionally bypassed. Saving only to JSON. ---
+2025-10-29 10:16:57,507 - __main__ [INFO] - --- Assembling Agent 3 graph ---
+2025-10-29 10:16:57,517 - __main__ [INFO] - --- Agent 3 graph compiled successfully ---
+2025-10-29 10:16:57,518 - __main__ [INFO] - --- Running agent3_graph.py directly ---
+2025-10-29 10:16:57,520 - __main__ [INFO] - =========================================
+2025-10-29 10:16:57,521 - __main__ [INFO] - STARTING AGENT 3: DCPR WORKFLOW
+2025-10-29 10:16:57,521 - __main__ [INFO] - =========================================
+2025-10-29 10:16:57,521 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_001 ---
+2025-10-29 10:16:57,523 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_001
+2025-10-29 10:16:57,524 - memory.store [INFO] - Loaded stats for creator demo_creator_001
+2025-10-29 10:16:57,525 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_001 (Type: incremental)
+2025-10-29 10:16:57,526 - modules.ingestion [WARNING] - No post files found for creator: demo_creator_001
+2025-10-29 10:16:57,526 - modules.ingestion [INFO] - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 10:16:57,528 - __main__ [ERROR] - Graph FAILED for demo_creator_001. Error: No new posts to process
+2025-10-29 10:16:57,528 - __main__ [INFO] - --- Finished for Creator: demo_creator_001 ---
+
+2025-10-29 10:16:57,529 - __main__ [INFO] - 
+--- Running for Creator: demo_creator_002 ---
+2025-10-29 10:16:57,530 - __main__ [INFO] - --- [Node: check_for_stats] Checking stats for demo_creator_002
+2025-10-29 10:16:57,531 - __main__ [INFO] - --- [Node: load_data] Loading data for demo_creator_002 (Type: full)
+2025-10-29 10:16:57,532 - modules.ingestion [INFO] - Found 6 posts for creator demo_creator_002
+2025-10-29 10:16:57,534 - modules.ingestion [INFO] - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 10:16:57,534 - __main__ [INFO] - --- Loaded 6 posts for full build.
+2025-10-29 10:16:57,537 - memory.versioning [INFO] - Created version v20251029_044657_188da5b2 for creator demo_creator_002
+2025-10-29 10:16:57,537 - modules.dcpr_calculator [INFO] - Creating DCPR from scratch with 6 posts
+2025-10-29 10:16:57,538 - modules.dcpr_calculator [INFO] - DCPR creation complete
+2025-10-29 10:16:57,539 - modules.summarization [INFO] - Generating identity summary
+2025-10-29 10:16:59,541 - httpx [INFO] - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-29 10:16:59,542 - modules.summarization [INFO] - Ollama response received, parsing...
+2025-10-29 10:16:59,542 - modules.summarization [INFO] - Identity summary generated and validated.
+2025-10-29 10:16:59,544 - modules.validation [INFO] - Validating DCPR output
+2025-10-29 10:16:59,544 - modules.validation [INFO] - DCPR validation passed
+2025-10-29 10:16:59,551 - memory.store [INFO] - Saved DCPR and stats for creator demo_creator_002, version v20251029_044657_188da5b2
+2025-10-29 10:16:59,551 - __main__ [INFO] - --- Successfully validated and saved JSON version v20251029_044657_188da5b2
+2025-10-29 10:16:59,553 - __main__ [INFO] - Graph COMPLETED for demo_creator_002.
+2025-10-29 10:16:59,553 - __main__ [INFO] - --- Finished for Creator: demo_creator_002 ---
+
+2025-10-29 10:16:59,553 - __main__ [INFO] - =========================================
+2025-10-29 10:16:59,554 - __main__ [INFO] - AGENT 3 WORKFLOW COMPLETE
+2025-10-29 10:16:59,554 - __main__ [INFO] - =========================================
+2025-10-29 10:16:59,556 - __main__ [INFO] - --- Direct execution finished ---

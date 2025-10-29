@@ -1,0 +1,44 @@
+{
+"post_id": "p7789",
+"creator_id": "c1234",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-09-27T18:30:00Z",
+"geo_tag": "Bangalore, India",
+"caption": "New deadlift PR! The grind never stops. What did you hit today?",
+"hashtags": ["#fitness", "#gym", "#motivation", "#deadlift"],
+"likes": 9200,
+"comments": 210,
+"saves": 450,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Fitness",
+"secondary_theme": "Gym workout",
+"mood": "Confident, proud",
+"tone": "Motivational",
+"audience_emotion_targeted": ["motivation", "strength"],
+"setting": "Indoor gym",
+"camera_style": "Low-angle shot",
+"lighting": "Bright artificial light",
+"brand_presence": true
+},
+"visual_analysis": {
+"dominant_colors": ["#333333", "#D32F2F"],
+"composition_type": "Single subject",
+"objects_detected": ["barbell", "weights", "person", "mirror"],
+"focus_subject": "creator lifting",
+"aesthetic_score": 8.1
+},
+"linguistic_analysis": {
+"caption_tone": "Motivational, proud",
+"emotion_keywords": ["grind", "PR", "strength"],
+"hashtag_intent": ["motivation", "fitness"],
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.091,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.18, 0.22, 0.10, 0.08, 0.12]
+}

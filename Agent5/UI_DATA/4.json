@@ -1,0 +1,46 @@
+{
+  "creator_id": "creator_004",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A motivational speaker focusing on personal growth through fitness challenges and mindset shifts for achieving peak performance.",
+    "persona_keywords": ["Motivation", "Personal Growth", "Fitness", "Mindset"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Motivation", "Fitness"],
+    "topic_distribution": {"Motivation": 0.55, "Fitness": 0.45},
+    "emotional_profile": {
+      "dominant_emotions": ["Inspiration", "Resilience"],
+      "average_emotional_intensity": 0.92
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Dramatic spotlights"],
+      "camera_styles": ["Inspirational montages"],
+      "dominant_color_palette": ["#00008B", "#FFD700", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Epic orchestral"],
+      "speech_style": "Passionate, uplifting"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 5.5,
+    "avg_engagement_rate": 0.115,
+    "authenticity_score": 0.93,
+    "consistency_score": 0.94,
+    "avg_aesthetic_score": 9.6,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 160,
+    "follower_count": 450000
+  },
+  "raw_stats": {
+    "sum_likes": 4950000,
+    "sum_comments": 72000,
+    "media_type_counts": {"reel": 110, "post": 50}
+  },
+  "metadata": {
+    "first_post_date": "2023-02-05",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}

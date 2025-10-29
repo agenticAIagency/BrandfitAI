@@ -1,0 +1,47 @@
+
+{
+  "creator_id": "creator_006",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A productivity guru offering tips on time management, tools, and habits to boost efficiency in daily life.",
+    "persona_keywords": ["Productivity", "Time Management", "Habits", "Efficiency"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Productivity", "Habits"],
+    "topic_distribution": {"Productivity": 0.6, "Habits": 0.4},
+    "emotional_profile": {
+      "dominant_emotions": ["Focus", "Achievement"],
+      "average_emotional_intensity": 0.65
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Office desk lamps"],
+      "camera_styles": ["Screen recordings"],
+      "dominant_color_palette": ["#4682B4", "#FFFFFF", "#000000"]
+    },
+    "audio_signatures": {
+      "music_types": ["Motivational instrumentals"],
+      "speech_style": "Clear, structured"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 4.0,
+    "avg_engagement_rate": 0.07,
+    "authenticity_score": 0.68,
+    "consistency_score": 0.75,
+    "avg_aesthetic_score": 7.0,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 90,
+    "follower_count": 100000
+  },
+  "raw_stats": {
+    "sum_likes": 900000,
+    "sum_comments": 18000,
+    "media_type_counts": {"reel": 50, "post": 40}
+  },
+  "metadata": {
+    "first_post_date": "2024-01-15",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}

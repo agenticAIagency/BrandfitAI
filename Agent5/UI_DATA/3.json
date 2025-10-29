@@ -1,0 +1,48 @@
+
+{
+  "creator_id": "creator_003",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A nutrition expert sharing balanced meal plans and science-backed diet advice to foster healthy eating habits and long-term wellness.",
+    "persona_keywords": ["Nutrition", "Diet", "Health", "Wellness"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Nutrition", "Health"],
+    "topic_distribution": {"Nutrition": 0.65, "Health": 0.35},
+    "emotional_profile": {
+      "dominant_emotions": ["Motivation", "Well-being"],
+      "average_emotional_intensity": 0.88
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Natural kitchen light"],
+      "camera_styles": ["Close-up food shots"],
+      "dominant_color_palette": ["#228B22", "#FFD700", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Light upbeat tunes"],
+      "speech_style": "Informative, encouraging"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 4.8,
+    "avg_engagement_rate": 0.098,
+    "authenticity_score": 0.91,
+    "consistency_score": 0.90,
+    "avg_aesthetic_score": 9.4,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 140,
+    "follower_count": 180000
+  },
+  "raw_stats": {
+    "sum_likes": 2520000,
+    "sum_comments": 48000,
+    "media_type_counts": {"reel": 70, "post": 70}
+  },
+  "metadata": {
+    "first_post_date": "2023-11-10",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}
+

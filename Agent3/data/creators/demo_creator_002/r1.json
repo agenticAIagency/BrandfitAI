@@ -1,0 +1,79 @@
+{
+"post_id": "p9001",
+"creator_id": "c5678",
+"media_type": "reel",
+"metadata": {
+"upload_time": "2025-10-06T13:00:00Z",
+"geo_tag": "New York, USA",
+"caption": "My top 3 Notion tips to organize your life. You NEED to try #2. #notion #productivity #software",
+"hashtags": ["#notion", "#productivity", "#software", "#lifehack"],
+"likes": 11500,
+"comments": 550,
+"shares": 1200,
+"duration_seconds": 55.0,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Productivity",
+"secondary_theme": "Software Tutorial",
+"mood": "Helpful, efficient",
+"tone": "Educational",
+"audience_emotion_targeted": ["learning", "organization", "efficiency"],
+"setting": "Screencast / Home office",
+"camera_style": "Screencast with Picture-in-Picture (PiP)",
+"lighting": "Screencapture / Softbox on face",
+"music_type": "Lofi hip hop background",
+"narrative_structure": "Hook -> Tip 1 (Screencast) -> Tip 2 -> Tip 3 -> CTA",
+"brand_presence": false
+},
+"timeline_analysis": [
+{
+"timestamp_start": 0,
+"timestamp_end": 5.0,
+"scene_summary": "Creator PiP, looking at camera. Text hook: 'Stop wasting time on Notion'",
+"speech_summary": "Here are 3 tips to fix your Notion setup, fast.",
+"objects_detected": ["creator", "text overlay"],
+"actions": ["speaking"],
+"facial_expression": "Direct, confident",
+"tone": "Direct, helpful",
+"audio_energy": 0.6,
+"visual_intensity": 0.7,
+"engagement_likelihood": "High"
+},
+{
+"timestamp_start": 5.0,
+"timestamp_end": 45.0,
+"scene_summary": "Screencast of Notion. Quick cuts showing how to create databases and templates.",
+"speech_summary": "Voiceover: First, use a master database... Second, create templates...",
+"objects_detected": ["screencast", "notion UI", "text overlay"],
+"actions": ["clicking", "typing"],
+"facial_expression": "N/A",
+"tone": "Instructional, clear",
+"audio_energy": 0.5,
+"visual_intensity": 0.8,
+"engagement_likelihood": "High"
+},
+{
+"timestamp_start": 45.0,
+"timestamp_end": 55.0,
+"scene_summary": "Back to creator PiP, smiling. CTA text overlay: 'Follow for more tips!'",
+"speech_summary": "Voiceover: Follow for more productivity hacks!",
+"objects_detected": ["creator", "text overlay"],
+"actions": ["smiling", "speaking"],
+"facial_expression": "Encouraging",
+"tone": "Positive, encouraging",
+"audio_energy": 0.6,
+"visual_intensity": 0.7,
+"engagement_likelihood": "Medium"
+}
+],
+"linguistic_analysis": {
+"caption_tone": "Helpful, direct, engaging",
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.102,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.3, 0.2, 0.6, 0.1, 0.4]
+}

@@ -1,0 +1,191 @@
+2025-10-29 04:35:59,669 - agent4_graph - INFO - Configuration loaded successfully.
+2025-10-29 04:35:59,670 - modules.ingestion - WARNING - DCPR input directory not found: ..\Project_agent3\data\personas
+2025-10-29 04:35:59,670 - modules.ingestion - INFO - DCPR Ingestion initialized, reading from: ..\Project_agent3\data\personas
+2025-10-29 04:35:59,671 - modules.clustering - INFO - Creator Clustering initialized with algorithm: kmeans
+2025-10-29 04:35:59,671 - modules.scoring - INFO - Creator Scoring initialized.
+2025-10-29 04:35:59,671 - memory.store - INFO - EvaluationStore initialized, saving to: data\evaluation
+2025-10-29 04:35:59,680 - agent4_graph - INFO - Import successful. Starting run_evaluation...
+2025-10-29 04:35:59,680 - agent4_graph - INFO - =========================================
+2025-10-29 04:35:59,680 - agent4_graph - INFO - STARTING AGENT 4: EVALUATION WORKFLOW
+2025-10-29 04:35:59,681 - agent4_graph - INFO - =========================================
+2025-10-29 04:35:59,683 - agent4_graph - INFO - --- [Node: load_dcprs] Loading DCPRs...
+2025-10-29 04:35:59,684 - modules.ingestion - ERROR - Cannot load DCPRs, directory does not exist: ..\Project_agent3\data\personas
+2025-10-29 04:35:59,685 - agent4_graph - WARNING - --- Stopping workflow due to error: No valid DCPRs found to process.
+2025-10-29 04:35:59,687 - agent4_graph - ERROR - --- [Node: handle_error] Workflow failed: No valid DCPRs found to process.
+2025-10-29 04:35:59,687 - agent4_graph - ERROR - Agent 4 workflow finished with an error.
+2025-10-29 04:35:59,688 - agent4_graph - INFO - =========================================
+2025-10-29 04:35:59,688 - agent4_graph - INFO - AGENT 4 WORKFLOW COMPLETE
+2025-10-29 04:35:59,688 - agent4_graph - INFO - =========================================
+2025-10-29 04:35:59,688 - agent4_graph - INFO - run_evaluation completed.
+2025-10-29 04:35:59,691 - agent4_graph - INFO - Agent 4 execution finished.
+2025-10-29 04:36:26,463 - agent4_graph - INFO - Configuration loaded successfully.
+2025-10-29 04:36:26,464 - modules.ingestion - WARNING - DCPR input directory not found: ..\Project_agent3\data\personas
+2025-10-29 04:36:26,464 - modules.ingestion - INFO - DCPR Ingestion initialized, reading from: ..\Project_agent3\data\personas
+2025-10-29 04:36:26,464 - modules.clustering - INFO - Creator Clustering initialized with algorithm: kmeans
+2025-10-29 04:36:26,464 - modules.scoring - INFO - Creator Scoring initialized.
+2025-10-29 04:36:26,465 - memory.store - INFO - EvaluationStore initialized, saving to: data\evaluation
+2025-10-29 04:36:26,474 - agent4_graph - INFO - Import successful. Starting run_evaluation...
+2025-10-29 04:36:26,474 - agent4_graph - INFO - =========================================
+2025-10-29 04:36:26,474 - agent4_graph - INFO - STARTING AGENT 4: EVALUATION WORKFLOW
+2025-10-29 04:36:26,474 - agent4_graph - INFO - =========================================
+2025-10-29 04:36:26,475 - agent4_graph - INFO - --- [Node: load_dcprs] Loading DCPRs...
+2025-10-29 04:36:26,476 - modules.ingestion - ERROR - Cannot load DCPRs, directory does not exist: ..\Project_agent3\data\personas
+2025-10-29 04:36:26,477 - agent4_graph - WARNING - --- Stopping workflow due to error: No valid DCPRs found to process.
+2025-10-29 04:36:26,479 - agent4_graph - ERROR - --- [Node: handle_error] Workflow failed: No valid DCPRs found to process.
+2025-10-29 04:36:26,480 - agent4_graph - ERROR - Agent 4 workflow finished with an error.
+2025-10-29 04:36:26,480 - agent4_graph - INFO - =========================================
+2025-10-29 04:36:26,480 - agent4_graph - INFO - AGENT 4 WORKFLOW COMPLETE
+2025-10-29 04:36:26,480 - agent4_graph - INFO - =========================================
+2025-10-29 04:36:26,481 - agent4_graph - INFO - run_evaluation completed.
+2025-10-29 04:36:26,484 - agent4_graph - INFO - Agent 4 execution finished.
+2025-10-29 04:38:07,597 - agent4_graph [INFO] - --- agent4_graph.py logging configured. Log file: E:\AGENTIC_AI\Project_agent3\Agent4\logs\agent4.log ---
+2025-10-29 04:38:09,386 - agent4_graph [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 04:38:09,387 - agent4_graph [INFO] - --- Added E:\AGENTIC_AI\Project_agent3 to sys.path ---
+2025-10-29 04:38:09,387 - agent4_graph [INFO] - --- Importing Agent 4 project modules ---
+2025-10-29 04:38:11,025 - agent4_graph [INFO] - --- Agent 4 project modules imported successfully ---
+2025-10-29 04:38:11,025 - agent4_graph [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent4\config.yaml ---
+2025-10-29 04:38:11,028 - agent4_graph [INFO] - --- Configuration loaded successfully ---
+2025-10-29 04:38:11,028 - agent4_graph [INFO] - --- Initializing Agent 4 modules ---
+2025-10-29 04:38:11,030 - agent4_graph [INFO] - Input DCPR directory resolved to: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 04:38:11,030 - agent4_graph [INFO] - Output evaluation directory resolved to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 04:38:11,031 - Agent4.modules.ingestion [INFO] - DCPR Ingestion initialized, reading from: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 04:38:11,031 - Agent4.modules.clustering [INFO] - Creator Clustering initialized with algorithm: kmeans
+2025-10-29 04:38:11,031 - Agent4.modules.scoring [INFO] - Creator Scoring initialized.
+2025-10-29 04:38:11,032 - Agent4.memory.store [INFO] - EvaluationStore initialized, saving to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 04:38:11,032 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 04:38:11,032 - agent4_graph [INFO] - --- Agent 4 modules initialized successfully ---
+2025-10-29 04:38:11,033 - agent4_graph [INFO] - --- Assembling Agent 4 graph ---
+2025-10-29 04:38:11,044 - agent4_graph [INFO] - --- Agent 4 graph compiled successfully ---
+2025-10-29 04:38:11,045 - agent4_graph [INFO] - Import successful. Starting run_evaluation...
+2025-10-29 04:38:11,045 - agent4_graph [INFO] - =========================================
+2025-10-29 04:38:11,045 - agent4_graph [INFO] - STARTING AGENT 4: EVALUATION WORKFLOW
+2025-10-29 04:38:11,045 - agent4_graph [INFO] - =========================================
+2025-10-29 04:38:11,047 - agent4_graph [INFO] - --- [Node: load_dcprs] Loading DCPRs...
+2025-10-29 04:38:11,078 - Agent4.modules.ingestion [INFO] - Scan complete. Found 2 creator directories, loaded 2 valid DCPRs.
+2025-10-29 04:38:11,079 - agent4_graph [INFO] - --- Loaded 2 DCPRs.
+2025-10-29 04:38:11,081 - agent4_graph [INFO] - --- [Node: cluster_creators] Clustering creators...
+2025-10-29 04:38:11,081 - Agent4.modules.clustering [INFO] - Performing clustering on 2 creators with valid embeddings.
+2025-10-29 04:38:11,082 - Agent4.modules.clustering [WARNING] - Cannot determine K with less than 2 potential clusters (max_k=1). Defaulting to 1 cluster.
+2025-10-29 04:38:13,042 - Agent4.modules.clustering [INFO] - Clustering complete. Assigned 1 clusters.
+2025-10-29 04:38:13,042 - agent4_graph [INFO] - --- Clustering completed. Status: success
+2025-10-29 04:38:13,043 - agent4_graph [INFO] - --- [Node: calculate_scores] Calculating scores...
+2025-10-29 04:38:13,044 - Agent4.modules.scoring [INFO] - Calculated scores for 2 creators.
+2025-10-29 04:38:13,046 - agent4_graph [INFO] - --- Score calculation complete for 2 creators.
+2025-10-29 04:38:13,047 - agent4_graph [INFO] - --- [Node: combine_and_save] Combining and saving results...
+2025-10-29 04:38:13,047 - agent4_graph [INFO] - --- Merging scoring and clustering results...
+2025-10-29 04:38:13,052 - agent4_graph [INFO] - --- Merge complete. Final DataFrame shape: (2, 12)
+2025-10-29 04:38:13,052 - agent4_graph [INFO] - --- Attempting to save results for 2 creators...
+2025-10-29 04:38:13,060 - Agent4.memory.store [INFO] - Successfully saved evaluation results for 2 creators to E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_20251028_230813.csv
+2025-10-29 04:38:13,060 - Agent4.memory.store [INFO] - Updated E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_latest.csv
+2025-10-29 04:38:13,060 - agent4_graph [INFO] - --- Results saved successfully.
+2025-10-29 04:38:13,061 - agent4_graph [INFO] - Agent 4 workflow finished successfully.
+2025-10-29 04:38:13,061 - agent4_graph [INFO] - Evaluation results were saved.
+2025-10-29 04:38:13,061 - agent4_graph [INFO] - =========================================
+2025-10-29 04:38:13,062 - agent4_graph [INFO] - AGENT 4 WORKFLOW COMPLETE
+2025-10-29 04:38:13,062 - agent4_graph [INFO] - =========================================
+2025-10-29 04:38:13,062 - agent4_graph [INFO] - run_evaluation completed.
+2025-10-29 04:38:13,064 - agent4_graph [INFO] - Agent 4 execution finished.
+2025-10-29 06:53:24,103 - __main__ [INFO] - --- agent4_graph.py logging configured. Log file: E:\AGENTIC_AI\Project_agent3\Agent4\logs\agent4.log ---
+2025-10-29 06:53:26,465 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 06:53:26,465 - __main__ [INFO] - --- Added E:\AGENTIC_AI\Project_agent3 to sys.path ---
+2025-10-29 06:53:26,465 - __main__ [INFO] - --- Importing Agent 4 project modules ---
+2025-10-29 06:53:37,209 - __main__ [INFO] - --- Agent 4 project modules imported successfully ---
+2025-10-29 06:53:37,210 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent4\config.yaml ---
+2025-10-29 06:53:37,224 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 06:53:37,225 - __main__ [INFO] - --- Initializing Agent 4 modules ---
+2025-10-29 06:53:37,226 - __main__ [INFO] - Input DCPR directory resolved to: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 06:53:37,226 - __main__ [INFO] - Output evaluation directory resolved to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 06:53:37,226 - Agent4.modules.ingestion [INFO] - DCPR Ingestion initialized, reading from: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 06:53:37,229 - sentence_transformers.SentenceTransformer [INFO] - Use pytorch device_name: cpu
+2025-10-29 06:53:37,229 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 06:53:42,603 - Agent4.modules.clustering [INFO] - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-29 06:53:42,603 - Agent4.modules.clustering [INFO] - Creator Clustering initialized with algorithm: kmeans
+2025-10-29 06:53:42,603 - Agent4.modules.scoring [INFO] - Creator Scoring initialized.
+2025-10-29 06:53:42,604 - Agent4.memory.store [INFO] - EvaluationStore initialized, saving to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 06:53:42,604 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 06:53:42,605 - __main__ [INFO] - --- Agent 4 modules initialized successfully ---
+2025-10-29 06:53:42,605 - __main__ [INFO] - --- Assembling Agent 4 graph ---
+2025-10-29 06:53:42,630 - __main__ [INFO] - --- Agent 4 graph compiled successfully ---
+2025-10-29 06:53:42,630 - __main__ [INFO] - --- Running agent4_graph.py directly for testing ---
+2025-10-29 06:53:42,630 - __main__ [INFO] - Direct run: Ensured output directory exists: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 06:53:42,631 - __main__ [INFO] - Direct run: Ensured log directory exists: E:\AGENTIC_AI\Project_agent3\Agent4\logs
+2025-10-29 06:53:42,632 - __main__ [INFO] - =========================================
+2025-10-29 06:53:42,632 - __main__ [INFO] - STARTING AGENT 4: EVALUATION WORKFLOW
+2025-10-29 06:53:42,632 - __main__ [INFO] - =========================================
+2025-10-29 06:53:42,634 - __main__ [INFO] - --- [Node: load_dcprs] Loading DCPRs...
+2025-10-29 06:53:42,665 - Agent4.modules.ingestion [INFO] - Scan complete. Found 2 creator directories, loaded 2 valid DCPRs.
+2025-10-29 06:53:42,665 - __main__ [INFO] - --- Loaded 2 DCPRs.
+2025-10-29 06:53:42,667 - __main__ [INFO] - --- [Node: cluster_creators] Clustering creators...
+2025-10-29 06:53:42,814 - Agent4.modules.clustering [INFO] - Generated embeddings for 2 creators.
+2025-10-29 06:53:42,823 - Agent4.modules.clustering [INFO] - Performing clustering on 2 creators with valid embeddings.
+2025-10-29 06:53:42,824 - Agent4.modules.clustering [WARNING] - Clustering determined K=1 or failed. Assigning all to cluster 0.
+2025-10-29 06:53:42,834 - Agent4.modules.clustering [INFO] - Clustering complete. Assigned 1 clusters.
+2025-10-29 06:53:42,835 - __main__ [INFO] - --- Clustering completed. Status: warning_k_determination_failed
+2025-10-29 06:53:42,836 - __main__ [INFO] - --- [Node: calculate_scores] Calculating scores...
+2025-10-29 06:53:42,837 - Agent4.modules.scoring [INFO] - Calculated scores for 2 creators.
+2025-10-29 06:53:42,840 - __main__ [INFO] - --- Score calculation complete for 2 creators.
+2025-10-29 06:53:42,841 - __main__ [INFO] - --- [Node: combine_and_save] Combining and saving results...
+2025-10-29 06:53:42,841 - __main__ [INFO] - --- Merging scoring and clustering results...
+2025-10-29 06:53:42,844 - __main__ [INFO] - --- Merge complete. Final DataFrame shape: (2, 16)
+2025-10-29 06:53:42,845 - __main__ [INFO] - --- Attempting to save results for 2 creators...
+2025-10-29 06:53:42,858 - Agent4.memory.store [INFO] - Successfully saved evaluation results for 2 creators to E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_20251029_012342.csv
+2025-10-29 06:53:42,858 - Agent4.memory.store [INFO] - Updated E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_latest.csv
+2025-10-29 06:53:42,858 - __main__ [INFO] - --- Results saved successfully.
+2025-10-29 06:53:42,860 - __main__ [INFO] - Agent 4 workflow finished successfully.
+2025-10-29 06:53:42,860 - __main__ [INFO] - Evaluation results were saved.
+2025-10-29 06:53:42,861 - __main__ [INFO] - =========================================
+2025-10-29 06:53:42,861 - __main__ [INFO] - AGENT 4 WORKFLOW COMPLETE
+2025-10-29 06:53:42,861 - __main__ [INFO] - =========================================
+2025-10-29 06:53:42,866 - __main__ [INFO] - --- Direct execution finished ---
+2025-10-29 10:18:03,048 - __main__ [INFO] - --- agent4_graph.py logging configured. Log file: E:\AGENTIC_AI\Project_agent3\Agent4\logs\agent4.log ---
+2025-10-29 10:18:05,079 - __main__ [INFO] - --- Standard libraries imported successfully ---
+2025-10-29 10:18:05,079 - __main__ [INFO] - --- Added E:\AGENTIC_AI\Project_agent3 to sys.path ---
+2025-10-29 10:18:05,080 - __main__ [INFO] - --- Importing Agent 4 project modules ---
+2025-10-29 10:18:16,840 - __main__ [INFO] - --- Agent 4 project modules imported successfully ---
+2025-10-29 10:18:16,840 - __main__ [INFO] - --- Loading configuration from E:\AGENTIC_AI\Project_agent3\Agent4\config.yaml ---
+2025-10-29 10:18:16,855 - __main__ [INFO] - --- Configuration loaded successfully ---
+2025-10-29 10:18:16,856 - __main__ [INFO] - --- Initializing Agent 4 modules ---
+2025-10-29 10:18:16,857 - __main__ [INFO] - Input DCPR directory resolved to: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 10:18:16,857 - __main__ [INFO] - Output evaluation directory resolved to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 10:18:16,858 - Agent4.modules.ingestion [INFO] - DCPR Ingestion initialized, reading from: E:\AGENTIC_AI\Project_agent3\data\personas
+2025-10-29 10:18:16,860 - sentence_transformers.SentenceTransformer [INFO] - Use pytorch device_name: cpu
+2025-10-29 10:18:16,861 - sentence_transformers.SentenceTransformer [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-10-29 10:18:21,582 - Agent4.modules.clustering [INFO] - Loaded embedding model: all-MiniLM-L6-v2
+2025-10-29 10:18:21,582 - Agent4.modules.clustering [INFO] - Creator Clustering initialized with algorithm: kmeans
+2025-10-29 10:18:21,582 - Agent4.modules.scoring [INFO] - Creator Scoring initialized.
+2025-10-29 10:18:21,583 - Agent4.memory.store [INFO] - EvaluationStore initialized, saving to: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 10:18:21,583 - utils.retry [INFO] - RetryHandler initialized with max_retries=2
+2025-10-29 10:18:21,584 - __main__ [INFO] - --- Agent 4 modules initialized successfully ---
+2025-10-29 10:18:21,584 - __main__ [INFO] - --- Assembling Agent 4 graph ---
+2025-10-29 10:18:21,596 - __main__ [INFO] - --- Agent 4 graph compiled successfully ---
+2025-10-29 10:18:21,597 - __main__ [INFO] - --- Running agent4_graph.py directly for testing ---
+2025-10-29 10:18:21,597 - __main__ [INFO] - Direct run: Ensured output directory exists: E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation
+2025-10-29 10:18:21,598 - __main__ [INFO] - Direct run: Ensured log directory exists: E:\AGENTIC_AI\Project_agent3\Agent4\logs
+2025-10-29 10:18:21,599 - __main__ [INFO] - =========================================
+2025-10-29 10:18:21,600 - __main__ [INFO] - STARTING AGENT 4: EVALUATION WORKFLOW
+2025-10-29 10:18:21,600 - __main__ [INFO] - =========================================
+2025-10-29 10:18:21,601 - __main__ [INFO] - --- [Node: load_dcprs] Loading DCPRs...
+2025-10-29 10:18:21,615 - Agent4.modules.ingestion [INFO] - Scan complete. Found 2 creator directories, loaded 2 valid DCPRs.
+2025-10-29 10:18:21,615 - __main__ [INFO] - --- Loaded 2 DCPRs.
+2025-10-29 10:18:21,618 - __main__ [INFO] - --- [Node: cluster_creators] Clustering creators...
+2025-10-29 10:18:21,894 - Agent4.modules.clustering [INFO] - Generated embeddings for 2 creators.
+2025-10-29 10:18:21,903 - Agent4.modules.clustering [INFO] - Performing clustering on 2 creators with valid embeddings.
+2025-10-29 10:18:21,903 - Agent4.modules.clustering [WARNING] - Clustering determined K=1 or failed. Assigning all to cluster 0.
+2025-10-29 10:18:21,914 - Agent4.modules.clustering [INFO] - Clustering complete. Assigned 1 clusters.
+2025-10-29 10:18:21,915 - __main__ [INFO] - --- Clustering completed. Status: warning_k_determination_failed
+2025-10-29 10:18:21,916 - __main__ [INFO] - --- [Node: calculate_scores] Calculating scores...
+2025-10-29 10:18:21,917 - Agent4.modules.scoring [INFO] - Calculated scores for 2 creators.
+2025-10-29 10:18:21,920 - __main__ [INFO] - --- Score calculation complete for 2 creators.
+2025-10-29 10:18:21,921 - __main__ [INFO] - --- [Node: combine_and_save] Combining and saving results...
+2025-10-29 10:18:21,922 - __main__ [INFO] - --- Merging scoring and clustering results...
+2025-10-29 10:18:21,925 - __main__ [INFO] - --- Merge complete. Final DataFrame shape: (2, 16)
+2025-10-29 10:18:21,925 - __main__ [INFO] - --- Attempting to save results for 2 creators...
+2025-10-29 10:18:21,939 - Agent4.memory.store [INFO] - Successfully saved evaluation results for 2 creators to E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_20251029_044821.csv
+2025-10-29 10:18:21,940 - Agent4.memory.store [INFO] - Updated E:\AGENTIC_AI\Project_agent3\Agent4\data\evaluation\creator_evaluation_latest.csv
+2025-10-29 10:18:21,940 - __main__ [INFO] - --- Results saved successfully.
+2025-10-29 10:18:21,941 - __main__ [INFO] - Agent 4 workflow finished successfully.
+2025-10-29 10:18:21,942 - __main__ [INFO] - Evaluation results were saved.
+2025-10-29 10:18:21,942 - __main__ [INFO] - =========================================
+2025-10-29 10:18:21,942 - __main__ [INFO] - AGENT 4 WORKFLOW COMPLETE
+2025-10-29 10:18:21,942 - __main__ [INFO] - =========================================
+2025-10-29 10:18:21,947 - __main__ [INFO] - --- Direct execution finished ---

@@ -1,0 +1,39 @@
+# Agent 2: Interpreter / Analyzer Configuration
+
+# --- Paths ---
+# Input directory structure from Agent 1
+input_base_dir: "../Agent1/Outputs" # Relative path to Agent 1's output
+
+# Output directory structure FOR Agent 3
+# Agent 3's ingestion module expects data here
+output_base_dir: "../agent3_draft/data/creators" # Relative path to Agent 3's data input
+
+# --- Processing ---
+# Number of parallel worker processes (0 means use cpu_count)
+max_workers: 0
+# Stop processing after N posts (for testing, 0 or null means process all)
+debug_max_posts: 0
+
+# --- Gemini Multimodal Analysis ---
+gemini:
+  model_name: "gemini-flash-latest" # Ensure you have API access
+  # Alternative: "gemini-pro-vision" for images if flash isn't available/needed
+  # Make sure the key is set in the .env file
+  max_retries: 2
+  request_timeout: 300 # Seconds
+
+# --- Embedding Generation ---
+embedding:
+  # Primary model (requires significant resources if run locally)
+  primary_model: "all-MiniLM-L6-v2"
+  # Fallback model (much smaller, runs on most systems)
+  fallback_model: "embeddinggemma-300m"
+  # Device for sentence-transformers ('cuda', 'cpu', 'mps', etc.)
+  # 'auto' will attempt cuda -> mps -> cpu
+  device: "auto"
+  # Normalize embeddings to unit length (recommended)
+  normalize: true
+
+# --- Logging ---
+log_level: "INFO"
+log_file: "./logs/agent2.log" # Relative to Agent2 directory

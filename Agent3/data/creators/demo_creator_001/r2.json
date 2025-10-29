@@ -1,0 +1,79 @@
+{
+"post_id": "p9983",
+"creator_id": "c1234",
+"media_type": "reel",
+"metadata": {
+"upload_time": "2025-10-03T11:00:00Z",
+"geo_tag": "Mumbai, India",
+"caption": "My 5-min HIGH PROTEIN smoothie. 🍓",
+"hashtags": ["#recipe", "#healthy", "#nutrition", "#proteinshake"],
+"likes": 12500,
+"comments": 310,
+"shares": 500,
+"duration_seconds": 45.0,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Nutrition",
+"secondary_theme": "Recipe",
+"mood": "Upbeat, helpful",
+"tone": "Educational",
+"audience_emotion_targeted": ["curiosity", "health-conscious"],
+"setting": "Kitchen",
+"camera_style": "Static overhead shot with quick cuts",
+"lighting": "Natural daylight",
+"music_type": "Calm lofi background",
+"narrative_structure": "Show ingredients -> Combine -> Blend -> Final product",
+"brand_presence": false
+},
+"timeline_analysis": [
+{
+"timestamp_start": 0,
+"timestamp_end": 10.0,
+"scene_summary": "Quick cuts showing all ingredients on counter (berries, protein, milk, spinach)",
+"speech_summary": "Voiceover: Here's what you need...",
+"objects_detected": ["berries", "spinach", "protein powder"],
+"actions": ["placing items"],
+"facial_expression": "Neutral (hands only)",
+"tone": "Informational",
+"audio_energy": 0.4,
+"visual_intensity": 0.7,
+"engagement_likelihood": "Medium"
+},
+{
+"timestamp_start": 10.0,
+"timestamp_end": 25.0,
+"scene_summary": "Adding all ingredients to a blender one by one.",
+"speech_summary": "Voiceover: One scoop of protein, handful of spinach...",
+"objects_detected": ["blender", "hand", "ingredients"],
+"actions": ["scooping", "pouring"],
+"facial_expression": "Neutral (hands only)",
+"tone": "Instructional",
+"audio_energy": 0.5,
+"visual_intensity": 0.6,
+"engagement_likelihood": "High"
+},
+{
+"timestamp_start": 25.0,
+"timestamp_end": 45.0,
+"scene_summary": "Blending shot, then pouring smoothie into a glass. Creator sips and smiles.",
+"speech_summary": "Voiceover: Blend and enjoy!",
+"objects_detected": ["blender", "glass", "smoothie", "creator"],
+"actions": ["blending", "pouring", "sipping", "smiling"],
+"facial_expression": "Happy, satisfied",
+"tone": "Positive",
+"audio_energy": 0.6,
+"visual_intensity": 0.8,
+"engagement_likelihood": "High"
+}
+],
+"linguistic_analysis": {
+"caption_tone": "Helpful, simple",
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.115,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.12, 0.18, 0.15, 0.06, 0.08]
+}

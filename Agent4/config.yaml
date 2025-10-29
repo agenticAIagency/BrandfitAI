@@ -1,0 +1,42 @@
+# Agent 4: Creator Evaluator Configuration
+
+paths:
+  # IMPORTANT: Points to Agent 3's output directory
+  dcpr_input_dir: "../Project_agent3/data/personas" 
+  # Where Agent 4 will save its results
+  output_dir: "./data/evaluation" 
+  logs_dir: "./logs"
+
+clustering:
+  # Algorithm: kmeans (options: kmeans, dbscan, hierarchical)
+  algorithm: "kmeans"
+  # For KMeans: Method to find K ('elbow', 'silhouette', or fixed number)
+  kmeans_k_method: "elbow" 
+  kmeans_max_k: 15 # Max clusters to test for elbow/silhouette
+  kmeans_fixed_k: 5 # Used if kmeans_k_method is a fixed number
+  # Minimum number of creators required to run clustering
+  min_creators_for_clustering: 1
+
+scoring:
+  # Define weights for Quality Score (must sum to 1.0)
+  quality_weights:
+    authenticity_score: 0.30
+    consistency_score: 0.30
+    avg_aesthetic_score: 0.25 # Normalized 0-1
+    topic_diversity: 0.15 # Calculated from topic_distribution
+
+  # Define weights for Performance Score (must sum to 1.0)
+  performance_weights:
+    avg_engagement_rate: 0.40
+    follower_count: 0.30 # Log-transformed? Needs consideration
+    posting_frequency_per_week: 0.20
+    audience_sentiment: 0.10 # Mapped to numeric
+
+  # Normalization scales (e.g., 0-100)
+  score_scale_min: 0
+  score_scale_max: 100
+
+# Langsmith (Optional but recommended)
+langsmith:
+  enabled: false
+  project: "agent4-evaluator"

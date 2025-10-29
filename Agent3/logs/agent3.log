@@ -1,0 +1,236 @@
+2025-10-29 01:12:50,913 - modules.ingestion - INFO - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 01:12:50,914 - modules.dcpr_calculator - INFO - DCPRCalculator initialized
+2025-10-29 01:12:50,914 - modules.summarization - INFO - PersonaSummarizationModule initialized with Ollama: llama3.2
+2025-10-29 01:12:50,914 - modules.validation - INFO - ValidationModule initialized with DCPR schema
+2025-10-29 01:12:50,916 - memory.store - INFO - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 01:12:50,916 - memory.versioning - INFO - VersionManager initialized
+2025-10-29 01:12:50,920 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:12:50,920 - __main__ - INFO - Agent 3: DCPR Builder - Automated Execution
+2025-10-29 01:12:50,920 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,920 - __main__ - INFO - Creators to process: 2
+2025-10-29 01:12:50,921 - __main__ - INFO - Max concurrent: 3
+2025-10-29 01:12:50,921 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:12:50,922 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,922 - __main__ - INFO - Processing creator: demo_creator_001
+2025-10-29 01:12:50,923 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,950 - __main__ - INFO - Loading all posts...
+2025-10-29 01:12:50,951 - modules.ingestion - WARNING - No post files found for creator: demo_creator_001
+2025-10-29 01:12:50,952 - __main__ - ERROR - Insufficient posts: 0 < 5 required
+2025-10-29 01:12:50,955 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,955 - __main__ - INFO - Processing creator: demo_creator_002
+2025-10-29 01:12:50,956 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,959 - __main__ - INFO - Loading all posts...
+2025-10-29 01:12:50,959 - modules.ingestion - WARNING - No post files found for creator: demo_creator_002
+2025-10-29 01:12:50,959 - __main__ - ERROR - Insufficient posts: 0 < 5 required
+2025-10-29 01:12:50,962 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:12:50,962 - __main__ - INFO - EXECUTION COMPLETE
+2025-10-29 01:12:50,963 - __main__ - INFO - ======================================================================
+2025-10-29 01:12:50,971 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:14:18,354 - modules.ingestion - INFO - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 01:14:18,354 - modules.dcpr_calculator - INFO - DCPRCalculator initialized
+2025-10-29 01:14:18,354 - modules.summarization - INFO - PersonaSummarizationModule initialized with Ollama: llama3.2
+2025-10-29 01:14:18,355 - modules.validation - INFO - ValidationModule initialized with DCPR schema
+2025-10-29 01:14:18,355 - memory.store - INFO - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 01:14:18,355 - memory.versioning - INFO - VersionManager initialized
+2025-10-29 01:14:18,357 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:14:18,358 - __main__ - INFO - Agent 3: DCPR Builder - Automated Execution
+2025-10-29 01:14:18,358 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,358 - __main__ - INFO - Creators to process: 2
+2025-10-29 01:14:18,358 - __main__ - INFO - Max concurrent: 3
+2025-10-29 01:14:18,358 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:14:18,359 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,359 - __main__ - INFO - Processing creator: demo_creator_001
+2025-10-29 01:14:18,359 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,367 - __main__ - INFO - Loading all posts...
+2025-10-29 01:14:18,368 - modules.ingestion - WARNING - No post files found for creator: demo_creator_001
+2025-10-29 01:14:18,368 - __main__ - ERROR - Insufficient posts: 0 < 5 required
+2025-10-29 01:14:18,371 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,372 - __main__ - INFO - Processing creator: demo_creator_002
+2025-10-29 01:14:18,372 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,375 - __main__ - INFO - Loading all posts...
+2025-10-29 01:14:18,376 - modules.ingestion - WARNING - No post files found for creator: demo_creator_002
+2025-10-29 01:14:18,376 - __main__ - ERROR - Insufficient posts: 0 < 5 required
+2025-10-29 01:14:18,378 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:14:18,378 - __main__ - INFO - EXECUTION COMPLETE
+2025-10-29 01:14:18,379 - __main__ - INFO - ======================================================================
+2025-10-29 01:14:18,387 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:24:31,684 - modules.ingestion - INFO - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 01:24:31,685 - modules.dcpr_calculator - INFO - DCPRCalculator initialized
+2025-10-29 01:24:31,685 - modules.summarization - INFO - PersonaSummarizationModule initialized with Ollama: llama3.2
+2025-10-29 01:24:31,685 - modules.validation - INFO - ValidationModule initialized with DCPR schema
+2025-10-29 01:24:31,686 - memory.store - INFO - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 01:24:31,686 - memory.versioning - INFO - VersionManager initialized
+2025-10-29 01:24:31,687 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:24:31,687 - __main__ - INFO - Agent 3: DCPR Builder - Automated Execution
+2025-10-29 01:24:31,688 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,688 - __main__ - INFO - Creators to process: 2
+2025-10-29 01:24:31,688 - __main__ - INFO - Max concurrent: 3
+2025-10-29 01:24:31,688 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:24:31,688 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,688 - __main__ - INFO - Processing creator: demo_creator_001
+2025-10-29 01:24:31,688 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,695 - __main__ - INFO - Loading all posts...
+2025-10-29 01:24:31,696 - modules.ingestion - INFO - Found 5 posts for creator demo_creator_001
+2025-10-29 01:24:31,759 - modules.ingestion - INFO - Successfully loaded 5 posts for creator demo_creator_001
+2025-10-29 01:24:31,759 - __main__ - INFO - Loaded 5 posts
+2025-10-29 01:24:31,760 - __main__ - INFO - Validating input quality...
+2025-10-29 01:24:31,760 - __main__ - INFO - Calculating DCPR from scratch...
+2025-10-29 01:24:31,760 - modules.dcpr_calculator - INFO - Creating DCPR from scratch with 5 posts
+2025-10-29 01:24:31,762 - modules.dcpr_calculator - INFO - DCPR creation complete
+2025-10-29 01:24:31,763 - memory.versioning - INFO - Created version v20251028_195431_7e07dc25 for creator demo_creator_001
+2025-10-29 01:24:31,763 - __main__ - INFO - Calculated metrics for 5 posts
+2025-10-29 01:24:31,763 - __main__ - INFO - Generating identity summary with LLM...
+2025-10-29 01:24:31,764 - modules.summarization - INFO - Generating identity summary
+2025-10-29 01:24:31,764 - modules.summarization - INFO - Calling Gemini API
+2025-10-29 01:24:31,764 - modules.summarization - ERROR - Gemini API error: 'PersonaSummarizationModule' object has no attribute 'model'
+2025-10-29 01:24:31,764 - modules.summarization - WARNING - Falling back to mock response
+2025-10-29 01:24:31,765 - modules.summarization - INFO - Identity summary generated
+2025-10-29 01:24:31,765 - __main__ - INFO - Validating DCPR output...
+2025-10-29 01:24:31,766 - modules.validation - INFO - Validating DCPR output
+2025-10-29 01:24:31,766 - modules.validation - INFO - DCPR validation passed
+2025-10-29 01:24:31,766 - __main__ - INFO - Saving DCPR and stats...
+2025-10-29 01:24:31,770 - memory.store - INFO - Saved DCPR and stats for creator demo_creator_001, version v20251028_195431_7e07dc25
+2025-10-29 01:24:31,776 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,777 - __main__ - INFO - Processing creator: demo_creator_002
+2025-10-29 01:24:31,777 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,779 - __main__ - INFO - Loading all posts...
+2025-10-29 01:24:31,780 - modules.ingestion - INFO - Found 3 posts for creator demo_creator_002
+2025-10-29 01:24:31,814 - modules.ingestion - INFO - Successfully loaded 3 posts for creator demo_creator_002
+2025-10-29 01:24:31,815 - __main__ - ERROR - Insufficient posts: 3 < 5 required
+2025-10-29 01:24:31,819 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:24:31,819 - __main__ - INFO - EXECUTION COMPLETE
+2025-10-29 01:24:31,819 - __main__ - INFO - ======================================================================
+2025-10-29 01:24:31,828 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:35:39,456 - modules.ingestion - INFO - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 01:35:39,456 - modules.dcpr_calculator - INFO - DCPRCalculator initialized
+2025-10-29 01:35:39,456 - modules.summarization - INFO - PersonaSummarizationModule initialized with Ollama: llama3.2
+2025-10-29 01:35:39,457 - modules.validation - INFO - ValidationModule initialized with DCPR schema
+2025-10-29 01:35:39,457 - memory.store - INFO - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 01:35:39,457 - memory.versioning - INFO - VersionManager initialized
+2025-10-29 01:35:39,459 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:35:39,459 - __main__ - INFO - Agent 3: DCPR Builder - Automated Execution
+2025-10-29 01:35:39,459 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,459 - __main__ - INFO - Creators to process: 2
+2025-10-29 01:35:39,459 - __main__ - INFO - Max concurrent: 3
+2025-10-29 01:35:39,460 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:35:39,460 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,460 - __main__ - INFO - Processing creator: demo_creator_001
+2025-10-29 01:35:39,460 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,461 - __main__ - INFO - ✓ Stats found for demo_creator_001 - INCREMENTAL UPDATE
+2025-10-29 01:35:39,461 - __main__ - INFO - Loading existing stats...
+2025-10-29 01:35:39,475 - memory.store - INFO - Loaded stats for creator demo_creator_001
+2025-10-29 01:35:39,475 - __main__ - INFO - Existing stats: 5 posts, last: 2025-10-03T11:00:00Z
+2025-10-29 01:35:39,476 - __main__ - INFO - Loading new posts...
+2025-10-29 01:35:39,477 - modules.ingestion - WARNING - No post files found for creator: demo_creator_001
+2025-10-29 01:35:39,477 - modules.ingestion - INFO - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 01:35:39,477 - __main__ - INFO - No new posts to process
+2025-10-29 01:35:39,477 - __main__ - INFO - ✅ Successfully processed demo_creator_001
+2025-10-29 01:35:39,478 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,478 - __main__ - INFO - Processing creator: demo_creator_002
+2025-10-29 01:35:39,478 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,478 - __main__ - INFO - ✗ No stats for demo_creator_002 - FULL BUILD
+2025-10-29 01:35:39,478 - __main__ - INFO - Loading all posts...
+2025-10-29 01:35:39,480 - modules.ingestion - INFO - Found 6 posts for creator demo_creator_002
+2025-10-29 01:35:39,518 - modules.ingestion - INFO - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 01:35:39,519 - __main__ - INFO - Loaded 6 posts
+2025-10-29 01:35:39,519 - __main__ - INFO - Validating input quality...
+2025-10-29 01:35:39,519 - __main__ - INFO - Calculating DCPR from scratch...
+2025-10-29 01:35:39,519 - modules.dcpr_calculator - INFO - Creating DCPR from scratch with 6 posts
+2025-10-29 01:35:39,520 - modules.dcpr_calculator - INFO - DCPR creation complete
+2025-10-29 01:35:39,521 - memory.versioning - INFO - Created version v20251028_200539_e54e5f65 for creator demo_creator_002
+2025-10-29 01:35:39,521 - __main__ - INFO - Calculated metrics for 6 posts
+2025-10-29 01:35:39,521 - __main__ - INFO - Generating identity summary with LLM...
+2025-10-29 01:35:39,521 - modules.summarization - INFO - Generating identity summary
+2025-10-29 01:35:39,522 - __main__ - ERROR - Error in full build: 'PersonaSummarizationModule' object has no attribute '_call_gemini'
+Traceback (most recent call last):
+  File "E:\AGENTIC_AI\Project_agent3\build_personas.py", line 141, in full_build
+    identity_summary = await summarization.generate_identity_summary(dcpr)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AGENTIC_AI\Project_agent3\modules\summarization.py", line 90, in generate_identity_summary
+    response_text = await self._call_gemini(prompt)
+                          ^^^^^^^^^^^^^^^^^
+AttributeError: 'PersonaSummarizationModule' object has no attribute '_call_gemini'
+2025-10-29 01:35:39,524 - __main__ - ERROR - ❌ Failed to process demo_creator_002
+2025-10-29 01:35:39,525 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:35:39,525 - __main__ - INFO - EXECUTION COMPLETE
+2025-10-29 01:35:39,525 - __main__ - INFO - ======================================================================
+2025-10-29 01:35:39,526 - __main__ - INFO - ✅ Successful: 1
+2025-10-29 01:35:39,526 - __main__ - INFO - ❌ Failed: 1
+2025-10-29 01:35:39,526 - __main__ - INFO - 📊 Total: 2
+2025-10-29 01:35:39,527 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:39:37,166 - modules.ingestion - INFO - DataIngestionModule initialized with root: ./data/creators
+2025-10-29 01:39:37,166 - modules.dcpr_calculator - INFO - DCPRCalculator initialized
+2025-10-29 01:39:37,167 - modules.summarization - INFO - PersonaSummarizationModule initialized with Ollama: llama3.2
+2025-10-29 01:39:37,167 - modules.validation - INFO - ValidationModule initialized with DCPR schema
+2025-10-29 01:39:37,168 - memory.store - INFO - PersonaMemoryStore initialized at ./data/personas
+2025-10-29 01:39:37,168 - memory.versioning - INFO - VersionManager initialized
+2025-10-29 01:39:37,170 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:39:37,170 - __main__ - INFO - Agent 3: DCPR Builder - Automated Execution
+2025-10-29 01:39:37,170 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:37,170 - __main__ - INFO - Creators to process: 2
+2025-10-29 01:39:37,170 - __main__ - INFO - Max concurrent: 3
+2025-10-29 01:39:37,171 - __main__ - INFO - ======================================================================
+
+2025-10-29 01:39:37,171 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:37,171 - __main__ - INFO - Processing creator: demo_creator_001
+2025-10-29 01:39:37,171 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:37,172 - __main__ - INFO - ✓ Stats found for demo_creator_001 - INCREMENTAL UPDATE
+2025-10-29 01:39:37,172 - __main__ - INFO - Loading existing stats...
+2025-10-29 01:39:37,173 - memory.store - INFO - Loaded stats for creator demo_creator_001
+2025-10-29 01:39:37,174 - __main__ - INFO - Existing stats: 5 posts, last: 2025-10-03T11:00:00Z
+2025-10-29 01:39:37,174 - __main__ - INFO - Loading new posts...
+2025-10-29 01:39:37,175 - modules.ingestion - WARNING - No post files found for creator: demo_creator_001
+2025-10-29 01:39:37,176 - modules.ingestion - INFO - Filtered 0 posts → 0 new posts since 2025-10-03T11:00:00Z
+2025-10-29 01:39:37,176 - __main__ - INFO - No new posts to process
+2025-10-29 01:39:37,176 - __main__ - INFO - ✅ Successfully processed demo_creator_001
+2025-10-29 01:39:37,176 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:37,177 - __main__ - INFO - Processing creator: demo_creator_002
+2025-10-29 01:39:37,177 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:37,177 - __main__ - INFO - ✗ No stats for demo_creator_002 - FULL BUILD
+2025-10-29 01:39:37,178 - __main__ - INFO - Loading all posts...
+2025-10-29 01:39:37,179 - modules.ingestion - INFO - Found 6 posts for creator demo_creator_002
+2025-10-29 01:39:37,182 - modules.ingestion - INFO - Successfully loaded 6 posts for creator demo_creator_002
+2025-10-29 01:39:37,182 - __main__ - INFO - Loaded 6 posts
+2025-10-29 01:39:37,182 - __main__ - INFO - Validating input quality...
+2025-10-29 01:39:37,182 - __main__ - INFO - Calculating DCPR from scratch...
+2025-10-29 01:39:37,182 - modules.dcpr_calculator - INFO - Creating DCPR from scratch with 6 posts
+2025-10-29 01:39:37,183 - modules.dcpr_calculator - INFO - DCPR creation complete
+2025-10-29 01:39:37,183 - memory.versioning - INFO - Created version v20251028_200937_fcf4d93c for creator demo_creator_002
+2025-10-29 01:39:37,183 - __main__ - INFO - Calculated metrics for 6 posts
+2025-10-29 01:39:37,184 - __main__ - INFO - Generating identity summary with LLM...
+2025-10-29 01:39:37,184 - modules.summarization - INFO - Generating identity summary
+2025-10-29 01:39:37,207 - modules.summarization - INFO - Calling Ollama API at http://localhost:11434/api/generate
+2025-10-29 01:39:48,041 - modules.summarization - INFO - Identity summary generated
+2025-10-29 01:39:48,042 - __main__ - INFO - Validating DCPR output...
+2025-10-29 01:39:48,042 - modules.validation - INFO - Validating DCPR output
+2025-10-29 01:39:48,042 - modules.validation - INFO - DCPR validation passed
+2025-10-29 01:39:48,043 - __main__ - INFO - Saving DCPR and stats...
+2025-10-29 01:39:48,047 - memory.store - INFO - Saved DCPR and stats for creator demo_creator_002, version v20251028_200937_fcf4d93c
+2025-10-29 01:39:48,047 - __main__ - INFO - ✅ Full build complete - Version: v20251028_200937_fcf4d93c
+2025-10-29 01:39:48,047 - __main__ - INFO - ✅ Successfully processed demo_creator_002
+2025-10-29 01:39:48,047 - __main__ - INFO - 
+======================================================================
+2025-10-29 01:39:48,047 - __main__ - INFO - EXECUTION COMPLETE
+2025-10-29 01:39:48,048 - __main__ - INFO - ======================================================================
+2025-10-29 01:39:48,048 - __main__ - INFO - ✅ Successful: 2
+2025-10-29 01:39:48,048 - __main__ - INFO - ❌ Failed: 0
+2025-10-29 01:39:48,048 - __main__ - INFO - 📊 Total: 2
+2025-10-29 01:39:48,048 - __main__ - INFO - ======================================================================
+

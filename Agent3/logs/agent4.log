@@ -1,0 +1,4 @@
+2025-10-29 04:28:42,763 - __main__ - INFO - Starting Agent 4 execution via run_agent4.py...
+2025-10-29 04:28:42,881 - __main__ - ERROR - Failed to import run_evaluation from agent4_graph.py.
+2025-10-29 04:28:42,882 - __main__ - ERROR - Ensure agent4_graph.py exists and has no import errors.
+2025-10-29 04:28:42,883 - __main__ - INFO - Agent 4 execution finished.

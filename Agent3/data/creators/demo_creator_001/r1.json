@@ -1,0 +1,79 @@
+{
+"post_id": "p9982",
+"creator_id": "c1234",
+"media_type": "reel",
+"metadata": {
+"upload_time": "2025-10-01T15:20:00Z",
+"geo_tag": "Bangalore, India",
+"caption": "Killer back workout today! 💪",
+"hashtags": ["#gymmotivation", "#backday", "#fitness"],
+"likes": 10450,
+"comments": 238,
+"shares": 122,
+"duration_seconds": 32.5,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Fitness",
+"secondary_theme": "Gym workout",
+"mood": "Energetic, confident",
+"tone": "Motivational",
+"audience_emotion_targeted": ["motivation", "discipline", "self-improvement"],
+"setting": "Indoor gym",
+"camera_style": "Handheld close-ups with fast transitions",
+"lighting": "Bright artificial light",
+"music_type": "Fast-tempo EDM background",
+"narrative_structure": "Intro → Demonstration → Outro motivation",
+"brand_presence": false
+},
+"timeline_analysis": [
+{
+"timestamp_start": 0,
+"timestamp_end": 3.2,
+"scene_summary": "Intro: creator looking at camera, greets audience, motivational tone",
+"speech_summary": "Let's go, hitting back today!",
+"objects_detected": ["creator", "camera", "mirror"],
+"actions": ["speaking", "adjusting camera"],
+"facial_expression": "Focused",
+"tone": "Motivational",
+"audio_energy": 0.7,
+"visual_intensity": 0.6,
+"engagement_likelihood": "Medium"
+},
+{
+"timestamp_start": 3.2,
+"timestamp_end": 18.7,
+"scene_summary": "Demonstrates back workout, high energy cuts between sets.",
+"speech_summary": "Explaining form, background music dominates.",
+"objects_detected": ["gym equipment", "weights"],
+"actions": ["pull-up", "barbell row"],
+"facial_expression": "Strained effort",
+"tone": "Instructional",
+"audio_energy": 0.9,
+"visual_intensity": 0.85,
+"engagement_likelihood": "High"
+},
+{
+"timestamp_start": 18.7,
+"timestamp_end": 32.5,
+"scene_summary": "Creator gives thumbs up, text overlay with 'Save for later!'",
+"speech_summary": "No speech, just music outro.",
+"objects_detected": ["creator", "text overlay"],
+"actions": ["smiling", "thumbs up"],
+"facial_expression": "Satisfied",
+"tone": "Positive",
+"audio_energy": 0.8,
+"visual_intensity": 0.7,
+"engagement_likelihood": "High"
+}
+],
+"linguistic_analysis": {
+"caption_tone": "Motivational, energetic",
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.089,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.17, 0.21, 0.13, 0.09, 0.11]
+}

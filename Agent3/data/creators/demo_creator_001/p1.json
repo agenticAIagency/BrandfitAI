@@ -1,0 +1,44 @@
+{
+"post_id": "p7788",
+"creator_id": "c1234",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-09-25T10:40:00Z",
+"geo_tag": "Mumbai, India",
+"caption": "Fuel your morning with oats and discipline. 💪 #HealthyLiving",
+"hashtags": ["#healthybreakfast", "#fitness", "#discipline"],
+"likes": 8540,
+"comments": 192,
+"saves": 340,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Nutrition",
+"secondary_theme": "Morning routine",
+"mood": "Calm, inspiring",
+"tone": "Encouraging",
+"audience_emotion_targeted": ["discipline", "consistency"],
+"setting": "Kitchen",
+"camera_style": "Static overhead shot",
+"lighting": "Natural daylight",
+"brand_presence": false
+},
+"visual_analysis": {
+"dominant_colors": ["#FBEEC1", "#8CC152"],
+"composition_type": "Flat lay",
+"objects_detected": ["bowl", "spoon", "oats", "coffee"],
+"focus_subject": "breakfast setup",
+"aesthetic_score": 8.7
+},
+"linguistic_analysis": {
+"caption_tone": "Encouraging, disciplined",
+"emotion_keywords": ["discipline", "healthy", "routine"],
+"hashtag_intent": ["motivation", "nutrition"],
+"text_overlay_presence": false
+},
+"engagement_features": {
+"engagement_rate": 0.084,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.14, 0.19, 0.11, 0.07, 0.09]
+}

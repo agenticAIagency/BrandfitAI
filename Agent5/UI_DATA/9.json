@@ -1,0 +1,47 @@
+
+{
+  "creator_id": "creator_008",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A lifestyle influencer showcasing fashion trends, daily routines, and personal style inspirations.",
+    "persona_keywords": ["Lifestyle", "Fashion", "Trends", "Style"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Lifestyle", "Fashion"],
+    "topic_distribution": {"Lifestyle": 0.5, "Fashion": 0.5},
+    "emotional_profile": {
+      "dominant_emotions": ["Confidence", "Creativity"],
+      "average_emotional_intensity": 0.68
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Natural outdoor light"],
+      "camera_styles": ["Outfit of the day shots"],
+      "dominant_color_palette": ["#FFC0CB", "#4B0082", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Trendy hip-hop"],
+      "speech_style": "Casual, engaging"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 4.2,
+    "avg_engagement_rate": 0.075,
+    "authenticity_score": 0.72,
+    "consistency_score": 0.78,
+    "avg_aesthetic_score": 7.2,
+    "audience_sentiment": "Neutral",
+    "total_posts_analyzed": 110,
+    "follower_count": 90000
+  },
+  "raw_stats": {
+    "sum_likes": 990000,
+    "sum_comments": 19800,
+    "media_type_counts": {"reel": 70, "post": 40}
+  },
+  "metadata": {
+    "first_post_date": "2024-02-20",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}

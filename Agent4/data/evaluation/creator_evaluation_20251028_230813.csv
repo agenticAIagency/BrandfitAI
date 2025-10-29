@@ -1,0 +1,3 @@
+creator_id,quality_score,performance_score,raw_authenticity,raw_consistency,raw_aesthetic,raw_engagement_rate,raw_follower_count,raw_posting_frequency,persona_version,total_posts_analyzed,cluster_id,meta_algorithm,meta_status,meta_k_used,meta_inertia
+demo_creator_001,61.35,62.52,0.49,0.58,8.1,0.0888,155000,4.38,v20251028_223238_7aa8047e,5,0,kmeans,success,1,0.03974744444444445
+demo_creator_002,56.6,49.99,0.57,0.3,8.6,0.0843,17000,1.75,v20251028_223301_4510501c,6,0,kmeans,success,1,0.03974744444444445

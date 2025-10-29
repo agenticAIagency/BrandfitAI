@@ -1,0 +1,44 @@
+{
+"post_id": "p8002",
+"creator_id": "c5678",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-10-04T17:00:00Z",
+"geo_tag": "New York, USA",
+"caption": "Reviewing the new Framework laptop. Sustainable, repairable, and powerful. Full review linked in bio. #ad @Framework",
+"hashtags": ["#techreview", "#laptop", "#framework", "#gadgets", "#sustainability"],
+"likes": 8100,
+"comments": 420,
+"saves": 700,
+"is_promotional": true
+},
+"content_overview": {
+"primary_theme": "Tech Review",
+"secondary_theme": "Gadgets",
+"mood": "Analytical, impressed",
+"tone": "Informational",
+"audience_emotion_targeted": ["curiosity", "trust"],
+"setting": "Studio / Workshop",
+"camera_style": "Close-up product shots",
+"lighting": "Soft studio light",
+"brand_presence": true
+},
+"visual_analysis": {
+"dominant_colors": ["#C0C0C0", "#000000", "#5DADE2"],
+"composition_type": "Product-focused",
+"objects_detected": ["laptop", "hands", "screwdriver", "components", "box"],
+"focus_subject": "laptop internals",
+"aesthetic_score": 8.8
+},
+"linguistic_analysis": {
+"caption_tone": "Analytical, informational",
+"emotion_keywords": ["sustainable", "repairable", "powerful"],
+"hashtag_intent": ["tech", "review", "product"],
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.081,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.5, 0.1, 0.4, 0.3, 0.2]
+}

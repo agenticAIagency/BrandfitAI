@@ -1,0 +1,47 @@
+
+{
+  "creator_id": "creator_007",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A home cook demonstrating easy recipes, kitchen hacks, and flavorful meals for everyday cooking enthusiasts.",
+    "persona_keywords": ["Cooking", "Recipes", "Kitchen Hacks", "Food"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Cooking", "Recipes"],
+    "topic_distribution": {"Cooking": 0.75, "Recipes": 0.25},
+    "emotional_profile": {
+      "dominant_emotions": ["Joy", "Satisfaction"],
+      "average_emotional_intensity": 0.72
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Warm kitchen lights"],
+      "camera_styles": ["Step-by-step tutorials"],
+      "dominant_color_palette": ["#CD853F", "#FF4500", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Cheerful pop"],
+      "speech_style": "Friendly, instructional"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 3.5,
+    "avg_engagement_rate": 0.062,
+    "authenticity_score": 0.78,
+    "consistency_score": 0.70,
+    "avg_aesthetic_score": 7.8,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 100,
+    "follower_count": 120000
+  },
+  "raw_stats": {
+    "sum_likes": 1200000,
+    "sum_comments": 24000,
+    "media_type_counts": {"reel": 60, "post": 40}
+  },
+  "metadata": {
+    "first_post_date": "2024-04-10",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}

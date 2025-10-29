@@ -1,0 +1,47 @@
+
+{
+  "creator_id": "creator_002",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "An inspiring yoga instructor promoting mindfulness and flexibility through serene routines and holistic wellness tips.",
+    "persona_keywords": ["Yoga", "Wellness", "Mindfulness", "Flexibility"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Yoga", "Wellness"],
+    "topic_distribution": {"Yoga": 0.6, "Wellness": 0.4},
+    "emotional_profile": {
+      "dominant_emotions": ["Calm", "Empowerment"],
+      "average_emotional_intensity": 0.85
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Soft natural light"],
+      "camera_styles": ["Wide-angle serene shots"],
+      "dominant_color_palette": ["#90EE90", "#ADD8E6", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Ambient meditation tracks"],
+      "speech_style": "Soothing, guiding"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 5.0,
+    "avg_engagement_rate": 0.105,
+    "authenticity_score": 0.89,
+    "consistency_score": 0.92,
+    "avg_aesthetic_score": 9.3,
+    "audience_sentiment": "Positive",
+    "total_posts_analyzed": 130,
+    "follower_count": 220000
+  },
+  "raw_stats": {
+    "sum_likes": 2860000,
+    "sum_comments": 52000,
+    "media_type_counts": {"reel": 90, "post": 40}
+  },
+  "metadata": {
+    "first_post_date": "2023-08-20",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}

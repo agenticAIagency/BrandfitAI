@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent 5: Creator Matchmaker MVP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {font-family: 'Inter', sans-serif;background:#f3f4f6;}
+        .match-card{
+            transition:all .3s ease-in-out;
+            box-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.06);
+        }
+        .match-card:hover{
+            transform:translateY(-2px);
+            box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.08);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+<div class="max-w-6xl mx-auto">
+
+    <!-- Header -->
+    <header class="text-center mb-10 p-6 bg-white rounded-xl shadow-lg">
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Agent 5: Creator Matchmaker</h1>
+        <p class="text-lg text-gray-600">Find the best creators and draft personalized outreach—powered by BrandFit.</p>
+    </header>
+
+    <!-- Main Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+        <!-- Input Panel -->
+        <div id="input-panel" class="lg:col-span-1 p-6 bg-white rounded-xl shadow-lg h-fit sticky top-8">
+            <h2 class="text-2xl font-bold text-indigo-700 mb-6 border-b pb-3">Define Campaign</h2>
+
+            <form id="matchmaker-form" class="space-y-6">
+
+                <!-- Theme -->
+                <div>
+                    <label for="theme" class="block text-sm font-medium text-gray-700 mb-1">Target Niche / Theme</label>
+                    <select id="theme" name="theme" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500">
+                        <option value="fitness" selected>Fitness &amp; Wellness</option>
+                        <option value="tech review">Tech Review / Gadgets</option>
+                        <option value="nutrition">Healthy Recipes / Nutrition</option>
+                        <option value="productivity">Productivity &amp; WFH Setup</option>
+                        <option value="lifestyle">Lifestyle &amp; Travel</option>
+                    </select>
+                </div>
+
+                <!-- Content Type -->
+                <div>
+                    <label for="content_type" class="block text-sm font-medium text-gray-700 mb-1">Required Content Format</label>
+                    <select id="content_type" name="content_type" required class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500">
+                        <option value="reels" selected>Reels (Short Video)</option>
+                        <option value="post">Image Posts (Static)</option>
+                        <option value="mixed">Mixed (Posts &amp; Reels)</option>
+                    </select>
+                </div>
+
+                <!-- Follower Slider -->
+                <div>
+                    <label for="followers" class="block text-sm font-medium text-gray-700 mb-2">Max Follower Count (Hard Cap)</label>
+                    <input type="range" id="followers" name="followers" min="5000" max="1000000" step="5000" value="200000"
+                           class="w-full h-2 bg-indigo-100 rounded-lg cursor-pointer">
+                    <div class="flex justify-between text-xs text-gray-500 mt-1">
+                        <span>5K</span>
+                        <span id="followers-value" class="font-semibold text-indigo-600">200,000</span>
+                        <span>1M+</span>
+                    </div>
+                </div>
+
+                <!-- Quality Slider -->
+                <div>
+                    <label for="quality" class="block text-sm font-medium text-gray-700 mb-2">Min Quality Score</label>
+                    <input type="range" id="quality" name="quality" min="0.5" max="1.0" step="0.05" value="0.75"
+                           class="w-full h-2 bg-green-100 rounded-lg cursor-pointer">
+                    <div class="flex justify-between text-xs text-gray-500 mt-1">
+                        <span>Low (0.5)</span>
+                        <span id="quality-value" class="font-semibold text-green-600">0.75</span>
+                        <span>High (1.0)</span>
+                    </div>
+                </div>
+
+                <!-- Goal -->
+                <div>
+                    <label for="goal_query" class="block text-sm font-medium text-gray-700 mb-1">Campaign Goal / Keywords</label>
+                    <textarea id="goal_query" name="goal_query" rows="3" required
+                              class="w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"
+                              placeholder="e.g., genuine testimonial for plant-based protein"></textarea>
+                </div>
+
+                <button type="submit"
+                        class="w-full flex items-center justify-center py-3 px-4 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-md">
+                    <svg id="loading-spinner" class="animate-spin -ml-1 mr-3 h-5 w-5 text-white hidden"
+                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor"
+                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Find Top Creators (Agent 5)
+                </button>
+
+                <p class="text-xs text-gray-500 text-center pt-2">MVP – results are simulated.</p>
+            </form>
+        </div>
+
+        <!-- Results Panel -->
+        <div id="results-panel" class="lg:col-span-2 space-y-8">
+            <div id="summary-section" class="hidden bg-white p-6 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                <h3 class="text-xl font-bold text-gray-800 mb-3">Recommendation Summary</h3>
+                <div id="criteria-output" class="text-sm text-gray-600 mb-4"></div>
+                <p id="recommendation-text" class="text-base font-medium text-gray-700 italic"></p>
+            </div>
+
+            <div id="matches-list" class="space-y-4">
+                <div id="initial-message" class="bg-yellow-100 p-6 rounded-lg text-yellow-800 font-medium">
+                    Fill the left panel and click <strong>Find Top Creators</strong> to see matches.
+                </div>
+            </div>
+
+            <div id="error-display" class="hidden bg-red-100 p-6 rounded-lg text-red-800 font-medium border border-red-400">
+                <h3 class="font-bold mb-2">Error</h3>
+                <p id="error-message"></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+/* ---------- DOM & Constants ---------- */
+const form               = document.getElementById('matchmaker-form');
+const matchesList        = document.getElementById('matches-list');
+const summarySection     = document.getElementById('summary-section');
+const criteriaOutput     = document.getElementById('criteria-output');
+const recommendationText = document.getElementById('recommendation-text');
+const errorDisplay       = document.getElementById('error-display');
+const errorMessage       = document.getElementById('error-message');
+const submitBtn          = form.querySelector('button[type="submit"]');
+const spinner            = document.getElementById('loading-spinner');
+
+const followersSlider = document.getElementById('followers');
+const followersValue  = document.getElementById('followers-value');
+const qualitySlider   = document.getElementById('quality');
+const qualityValue    = document.getElementById('quality-value');
+
+const MAX_MATCHES = 3;
+
+/* ---------- Slider Display ---------- */
+const fmt = n => n.toLocaleString('en-US');
+followersSlider.addEventListener('input', e => followersValue.textContent = fmt(+e.target.value));
+qualitySlider.addEventListener('input', e => qualityValue.textContent = (+e.target.value).toFixed(2));
+
+/* ---------- Mock API ---------- */
+async function fetchResults(data) {
+    const prompt = `Niche: ${data.theme}, Format: ${data.content_type}, Goal: "${data.goal_query}". Max followers: ${fmt(data.followers)}, Min quality: ${data.quality}.`;
+    console.log('Simulated LLM prompt:', prompt);
+    await new Promise(r => setTimeout(r, 2500));               // fake latency
+    return execute_matchmaker_chain_mock();
+}
+
+/* ---------- Form Submit ---------- */
+form.addEventListener('submit', async e => {
+    e.preventDefault();
+    errorDisplay.classList.add('hidden');
+    matchesList.innerHTML = '';
+    summarySection.classList.add('hidden');
+    spinner.classList.remove('hidden');
+    submitBtn.disabled = true;
+
+    const fd = new FormData(form);
+    const query = {
+        theme:       fd.get('theme'),
+        content_type:fd.get('content_type'),
+        followers:   +fd.get('followers'),
+        quality:     +fd.get('quality'),
+        goal_query:  fd.get('goal_query').trim()
+    };
+
+    try {
+        const res = await fetchResults(query);
+        renderResults(res);
+    } catch (err) {
+        errorMessage.textContent = err.message || 'Unexpected error';
+        errorDisplay.classList.remove('hidden');
+    } finally {
+        spinner.classList.add('hidden');
+        submitBtn.disabled = false;
+    }
+});
+
+/* ---------- Render ---------- */
+function renderResults(data) {
+    summarySection.classList.remove('hidden');
+    recommendationText.textContent = data.recommendation_summary;
+
+    const crit = `
+        <p><strong>Goal:</strong> ${document.getElementById('goal_query').value}</p>
+        <p><strong>Max Followers:</strong> ${fmt(data.search_criteria_applied.follower_max)}</p>
+        <p><strong>Min Quality:</strong> ${data.search_criteria_applied.min_quality_score}</p>
+        <p><strong>Niches:</strong> ${data.search_criteria_applied.target_niches.join(', ')}</p>
+    `;
+    criteriaOutput.innerHTML = crit;
+
+    if (data.top_matches?.length) {
+        matchesList.innerHTML = '';
+        data.top_matches.forEach((m, i) => matchesList.appendChild(createCard(m, i)));
+    } else {
+        matchesList.innerHTML = `<div class="bg-blue-100 p-6 rounded-lg text-blue-800 font-medium">
+            <h3 class="font-bold mb-1">No Matches</h3>
+            <p>No creators met all criteria.</p>
+        </div>`;
+    }
+}
+
+/* ---------- Card ---------- */
+function createCard(match, idx) {
+    const card = document.createElement('div');
+    card.className = 'match-card bg-white p-6 rounded-xl border border-gray-200 shadow-md';
+
+    const score = (parseFloat(match.final_match_score_estimated) * 100).toFixed(1);
+    const color = score > 85 ? 'text-green-600' : score > 70 ? 'text-yellow-600' : 'text-red-600';
+    const toggleId = `email-${match.creator_id}-${idx}`;
+
+    card.innerHTML = `
+        <div class="flex justify-between items-start border-b pb-4 mb-4">
+            <div>
+                <h4 class="text-2xl font-bold text-gray-800">#${idx+1}: ${match.creator_id}</h4>
+                <p class="text-sm text-gray-500">${match.reason_for_fit}</p>
+            </div>
+            <div class="text-right">
+                <span class="text-xs font-semibold text-gray-500">Match Score</span>
+                <p class="text-4xl font-extrabold ${color}">${score}%</p>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <div class="flex justify-between items-center bg-gray-50 p-3 rounded-lg cursor-pointer hover:bg-gray-100"
+                 data-toggle-target="#${toggleId}" onclick="toggleEmail(this)">
+                <span class="font-semibold text-gray-700">Subject: ${match.email_draft.subject}</span>
+                <svg class="w-5 h-5 text-gray-500 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+            </div>
+            <div id="${toggleId}" class="hidden p-4 bg-white border border-t-0 border-gray-200 rounded-b-lg">
+                <pre class="whitespace-pre-wrap text-sm text-gray-800 bg-gray-50 p-4 rounded-lg border">${match.email_draft.body}</pre>
+                <button onclick="copyEmail(this,'${match.email_draft.body.replace(/'/g, "\\'")}')"
+                        class="mt-3 text-xs font-medium text-indigo-600 hover:text-indigo-800 flex items-center">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-2m-4 5l4 4m0 0l-4 4m4-4H8"/>
+                    </svg> Copy Email
+                </button>
+                <span id="copy-status-${toggleId}" class="ml-3 text-xs text-green-500 hidden">Copied!</span>
+            </div>
+        </div>
+    `;
+    return card;
+}
+
+/* ---------- Helpers ---------- */
+window.toggleEmail = el => {
+    const target = document.querySelector(el.dataset.toggleTarget);
+    const icon   = el.querySelector('svg');
+    target.classList.toggle('hidden');
+    icon.classList.toggle('rotate-180');
+};
+
+window.copyEmail = (btn, txt) => {
+    const ta = document.createElement('textarea');
+    ta.value = txt; ta.style.position = 'fixed';
+    document.body.appendChild(ta); ta.select();
+    try {
+        document.execCommand('copy');
+        const status = document.getElementById(`copy-status-${btn.parentNode.id}`);
+        status.classList.remove('hidden');
+        setTimeout(() => status.classList.add('hidden'), 1500);
+    } catch(e){ console.error(e); }
+    document.body.removeChild(ta);
+};
+
+/* ---------- Mock Data & Chain ---------- */
+const POOL = [
+    {creator_id:"c1234",performance_intelligence:{authenticity_score:0.91,avg_aesthetic_score:8.5,avg_engagement_rate:0.089,follower_count:150000},
+     identity_summary:{persona_keywords:["fitness","gym","motivation"]},content_intelligence:{dominant_topics:["Fitness"]},
+     style_intelligence:{visual_signatures:{composition_styles:["Single subject"]}},audience_intent_targeted:["motivation"]},
+    {creator_id:"c5678",performance_intelligence:{authenticity_score:0.85,avg_aesthetic_score:9.0,avg_engagement_rate:0.075,follower_count:250000},
+     identity_summary:{persona_keywords:["tech review"]},content_intelligence:{dominant_topics:["Tech Review"]},
+     style_intelligence:{visual_signatures:{composition_styles:["Product-focused"]}},audience_intent_targeted:["curiosity"]},
+    {creator_id:"c9012",performance_intelligence:{authenticity_score:0.55,avg_aesthetic_score:6.2,avg_engagement_rate:0.05,follower_count:90000},
+     identity_summary:{persona_keywords:["travel"]},content_intelligence:{dominant_topics:["Lifestyle"]},
+     style_intelligence:{visual_signatures:{composition_styles:["Random"]}},audience_intent_targeted:["relaxation"]},
+    {creator_id:"c3456",performance_intelligence:{authenticity_score:0.88,avg_aesthetic_score:8.7,avg_engagement_rate:0.115,follower_count:180000},
+     identity_summary:{persona_keywords:["nutrition"]},content_intelligence:{dominant_topics:["Nutrition"]},
+     style_intelligence:{visual_signatures:{composition_styles:["Flat lay"]}},audience_intent_targeted:["health-conscious"]}
+];
+
+function execute_matchmaker_chain_mock() {
+    const theme   = document.getElementById('theme').value.toLowerCase();
+    const maxF    = +document.getElementById('followers').value;
+    const minQ    = +document.getElementById('quality').value;
+    const goal    = document.getElementById('goal_query').value.toLowerCase();
+
+    let filtered = POOL.filter(c => {
+        if (c.performance_intelligence.follower_count > maxF) return false;
+        if (c.performance_intelligence.authenticity_score < minQ) return false;
+        const topicOk = c.content_intelligence.dominant_topics.some(t => t.toLowerCase().includes(theme) || goal.includes(t.toLowerCase()));
+        const kwOk    = c.identity_summary.persona_keywords.some(k => goal.includes(k.toLowerCase()));
+        return topicOk || kwOk;
+    });
+
+    filtered.sort((a,b) => {
+        const sa = a.performance_intelligence.authenticity_score * a.performance_intelligence.avg_engagement_rate;
+        const sb = b.performance_intelligence.authenticity_score * b.performance_intelligence.avg_engagement_rate;
+        return sb - sa;
+    });
+
+    const top = filtered.slice(0, MAX_MATCHES).map((c,i) => {
+        const score = 0.75 + 0.25 * (MAX_MATCHES - i) / MAX_MATCHES;
+        const topic = c.content_intelligence.dominant_topics[0];
+        const style = c.style_intelligence.visual_signatures.composition_styles[0];
+        const intent= c.audience_intent_targeted[0];
+        const eng   = (c.performance_intelligence.avg_engagement_rate*100).toFixed(1);
+        return {
+            creator_id: c.creator_id,
+            final_match_score_estimated: score.toFixed(2),
+            reason_for_fit: `Strong '${topic}' alignment, ${eng}% engagement, authenticity ${c.performance_intelligence.authenticity_score}.`,
+            email_draft: {
+                subject: `Collab: [Brand] x ${c.creator_id} – ${topic}`,
+                body: `Hi ${c.creator_id},\n\nYour ${topic} content (style: ${style}) and ${c.performance_intelligence.avg_aesthetic_score.toFixed(1)} aesthetic score are perfect for us.\n\nWe’re launching a product your ${intent} audience will love. Interested in a review?\n\nBest,`
+            }
+        };
+    });
+
+    return {
+        search_criteria_applied: {
+            target_niches: [theme, document.getElementById('content_type').value],
+            follower_max: maxF,
+            min_quality_score: minQ,
+            campaign_goal: document.getElementById('goal_query').value
+        },
+        top_matches: top,
+        recommendation_summary: `Found ${top.length} strong matches ranked by authenticity + engagement.`
+    };
+}
+</script>
+</body>
+</html>

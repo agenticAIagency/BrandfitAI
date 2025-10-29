@@ -1,0 +1,199 @@
+# Agent 3: Creator Persona Builder Configuration
+
+# Application Settings
+app:
+  name: "Agent 3 - Creator Persona Builder"
+  version: "1.0.0"
+  host: "0.0.0.0"
+  port: 8003
+  debug: false
+  log_level: "INFO"
+
+# Data Paths
+paths:
+  data_root: "./data/creators"
+  storage_dir: "./data/personas"
+  index_dir: "./data/indices"
+  logs_dir: "./logs"
+  temp_dir: "./temp"
+
+# BDI Engine Configuration
+bdi:
+  min_posts_threshold: 5
+  min_quality_score: 0.5
+  confidence_threshold: 0.7
+  
+  # Strategy Selection
+  quick_update_threshold: 5  # posts
+  deep_dive_threshold: 30    # posts
+  deep_dive_temporal_days: 90
+
+# Feature Extraction
+features:
+  max_workers: 10
+  batch_size: 50
+  
+  # Embedding Models
+  text_model: "text-embedding-3-large"
+  text_dimension: 1536
+  
+  visual_model: "clip-vit-large"
+  visual_dimension: 768
+  
+  audio_model: "wav2vec2"
+  audio_dimension: 512
+  
+  # Engagement Normalization
+  engagement_log_scale: true
+  engagement_max_likes: 1000000
+  engagement_max_views: 10000000
+
+# Multimodal Fusion
+fusion:
+  # Modality Weights
+  text_weight: 0.40
+  visual_weight: 0.40
+  audio_weight: 0.15
+  engagement_weight: 0.05
+  
+  # Theme Clustering
+  num_themes: 5
+  min_theme_size: 2
+  
+  # Consistency Metrics
+  consistency_window: 10  # posts
+
+# Temporal Analysis
+temporal:
+  time_window_days: 30
+  min_coverage_days: 14
+  posting_frequency_threshold: 2  # posts per week
+
+# Persona Summarization
+summarization:
+  llm_model: "gemini-flash-latest"
+  temperature: 0.3
+  max_tokens: 2000
+  retry_attempts: 3
+  
+  # Fallback Configuration
+  use_fallback: true
+  fallback_on_timeout: true
+  timeout_seconds: 30
+
+# Validation
+validation:
+  strict_mode: true
+  require_all_fields: true
+  min_persona_completeness: 0.8
+  
+  # Quality Gates
+  min_posts_for_ready: 10
+  min_confidence_for_ready: 0.7
+  min_temporal_coverage: 30  # days
+
+# Confidence Calculator
+confidence:
+  min_posts_target: 20
+  min_temporal_days: 60
+  
+  # Component Weights
+  quality_weight: 0.30
+  volume_weight: 0.25
+  temporal_weight: 0.25
+  consistency_weight: 0.20
+
+# Memory Store
+memory:
+  enable_vector_search: true
+  enable_versioning: true
+  max_versions_per_creator: 10
+  
+  # LlamaIndex Configuration
+  chunk_size: 512
+  chunk_overlap: 50
+  similarity_top_k: 10
+  
+  # Storage Backend
+  backend: "filesystem"  # Options: filesystem, redis, postgres
+  enable_compression: false
+
+# Retry Handler
+retry:
+  max_retries: 3
+  base_delay: 1.0
+  max_delay: 60.0
+  exponential_base: 2.0
+  
+  # Circuit Breaker
+  enable_circuit_breaker: true
+  failure_threshold: 5
+  recovery_timeout: 60.0
+
+# API Configuration
+api:
+  # Rate Limiting
+  enable_rate_limit: true
+  requests_per_minute: 60
+  
+  # CORS
+  enable_cors: true
+  allowed_origins:
+    - "http://localhost:3000"
+    - "http://localhost:8000"
+  
+  # Caching
+  enable_cache: false
+  cache_ttl: 3600  # seconds
+  
+  # Authentication
+  require_auth: false
+  api_key_header: "X-API-Key"
+
+# Monitoring
+monitoring:
+  enable_metrics: true
+  enable_tracing: true
+  
+  # Langsmith
+  langsmith_enabled: true
+  langsmith_project: "agent3-personas"
+  
+  # Prometheus
+  prometheus_enabled: true
+  prometheus_port: 9003
+
+# Performance
+performance:
+  enable_async: true
+  max_concurrent_requests: 100
+  request_timeout: 300  # seconds
+  
+  # Memory Management
+  max_memory_mb: 4096
+  enable_gc: true
+  gc_threshold: 0.8
+
+# Development
+development:
+  enable_hot_reload: true
+  enable_debug_endpoints: true
+  generate_sample_data: false
+  sample_data_posts: 15
+
+# Production
+production:
+  workers: 4
+  keep_alive: 120
+  graceful_shutdown: 30
+  access_log: true
+  error_log: true
+
+vector_db:
+  enabled: true
+  # Using ChromaDB persistent client
+  type: "chromadb"
+  persist_directory: "./data/vector_store" # Directory to store ChromaDB data
+  # Collection names
+  persona_collection: "creator_persona_embeddings"
+  post_collection: "creator_post_embeddings"

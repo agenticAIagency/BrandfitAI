@@ -1,0 +1,103 @@
+{
+"post_id": "r102",
+"creator_id": "c5678",
+"media_type": "reel",
+"metadata": {
+"upload_time": "2025-10-25T16:30:00Z",
+"geo_tag": "Bengaluru, Karnataka, India",
+"caption": "A day in my life as a tech creator! Morning routine -> coding -> filming. Consistency is key. #dayinthelife #techcreator #productivityhacks",
+"hashtags": ["#dayinthelife", "#techcreator", "#productivityhacks", "#workflow", "#developer"],
+"likes": 9800,
+"comments": 280,
+"shares": 150,
+"duration_seconds": 45.0,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Daily Workflow / Day in the Life",
+"secondary_theme": "Tech Creator Lifestyle",
+"mood": "Focused, productive",
+"tone": "Informative, aspirational",
+"audience_emotion_targeted": ["motivation", "discipline", "curiosity"],
+"setting": "Home office, cafe",
+"camera_style": "Mix of timelapse, handheld, static shots",
+"lighting": "Natural daylight, screen light",
+"music_type": "Lo-fi instrumental background"
+},
+"timeline_analysis": [
+{
+"timestamp_start": 0,
+"timestamp_end": 5.5,
+"scene_summary": "Timelapse of morning routine (coffee, planning)",
+"speech_summary": "Voiceover: Starting the day focused...",
+"objects_detected": ["coffee mug", "laptop", "notebook"],
+"actions": ["typing", "writing", "drinking coffee"],
+"facial_expression": "Neutral",
+"tone": "Calm, narrative",
+"audio_energy": 0.4,
+"visual_intensity": 0.5,
+"engagement_likelihood": "Medium"
+},
+{
+"timestamp_start": 5.5,
+"timestamp_end": 25.0,
+"scene_summary": "Clips of coding session, screen views, typing",
+"speech_summary": "Voiceover explaining the coding task.",
+"objects_detected": ["monitor", "keyboard", "code on screen"],
+"actions": ["typing", "debugging"],
+"facial_expression": "Concentrated",
+"tone": "Informative",
+"audio_energy": 0.5,
+"visual_intensity": 0.7,
+"engagement_likelihood": "Medium-High"
+},
+{
+"timestamp_start": 25.0,
+"timestamp_end": 40.0,
+"scene_summary": "Setting up camera, filming a tech review segment",
+"speech_summary": "Voiceover: Time to film today's video...",
+"objects_detected": ["camera", "tripod", "microphone", "product box"],
+"actions": ["adjusting camera", "speaking to camera"],
+"facial_expression": "Engaged",
+"tone": "Enthusiastic",
+"audio_energy": 0.7,
+"visual_intensity": 0.6,
+"engagement_likelihood": "High"
+},
+{
+"timestamp_start": 40.0,
+"timestamp_end": 45.0,
+"scene_summary": "Outro: Waving goodbye, text overlay with call to action",
+"speech_summary": "Voiceover: That's a wrap! See you tomorrow.",
+"objects_detected": ["creator", "text overlay"],
+"actions": ["waving"],
+"facial_expression": "Friendly",
+"tone": "Positive, conclusive",
+"audio_energy": 0.6,
+"visual_intensity": 0.5,
+"engagement_likelihood": "Medium"
+}
+],
+"audio_analysis": {
+"music_genre": "Lo-fi Hip Hop",
+"tempo_bpm": 85,
+"vocal_presence": true,
+"speech_clarity": "Excellent",
+"voice_style": "Clear, informative"
+},
+"visual_analysis": {
+"dominant_colors": ["#2D3748", "#E2E8F0", "#4FD1C5"],
+"motion_density": 0.6,
+"scene_changes": 15,
+"aesthetic_score": 8.5
+},
+"linguistic_analysis": {
+"caption_tone": "Motivational, informative",
+"text_overlay_presence": true
+},
+"engagement_features": {
+"engagement_rate": 0.091,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.18, 0.22, 0.15, 0.12, 0.10]
+}

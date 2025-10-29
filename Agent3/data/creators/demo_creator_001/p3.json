@@ -1,0 +1,44 @@
+{
+"post_id": "p7790",
+"creator_id": "c1234",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-09-29T12:00:00Z",
+"geo_tag": "Goa, India",
+"caption": "Rest day essentials. Hydration is key, thanks to @Brand. #ad #restday",
+"hashtags": ["#lifestyle", "#hydration", "#ad", "#sponsored"],
+"likes": 6100,
+"comments": 150,
+"saves": 200,
+"is_promotional": true
+},
+"content_overview": {
+"primary_theme": "Lifestyle",
+"secondary_theme": "Rest day / Wellness",
+"mood": "Calm, relaxed",
+"tone": "Informational",
+"audience_emotion_targeted": ["relaxation", "wellness"],
+"setting": "Beach / Outdoor",
+"camera_style": "Close-up product shot",
+"lighting": "Natural daylight",
+"brand_presence": true
+},
+"visual_analysis": {
+"dominant_colors": ["#00BFFF", "#FFFFFF", "#F0E68C"],
+"composition_type": "Product focused",
+"objects_detected": ["bottle", "sand", "ocean", "person"],
+"focus_subject": "product bottle",
+"aesthetic_score": 7.5
+},
+"linguistic_analysis": {
+"caption_tone": "Promotional, calm",
+"emotion_keywords": ["rest", "hydration", "essentials"],
+"hashtag_intent": ["product", "wellness"],
+"text_overlay_presence": false
+},
+"engagement_features": {
+"engagement_rate": 0.065,
+"comment_sentiment": "Neutral"
+},
+"embedding": [0.10, 0.15, 0.18, 0.05, 0.07]
+}

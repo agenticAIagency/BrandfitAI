@@ -1,0 +1,45 @@
+{
+"post_id": "p103",
+"creator_id": "c5678",
+"media_type": "post",
+"metadata": {
+"upload_time": "2025-10-15T09:15:00Z",
+"geo_tag": "Bengaluru, Karnataka, India",
+"caption": "Boost your focus with this simple Notion trick! Organize your tasks and stay on top of your goals. #productivity #notion #techtips",
+"hashtags": ["#productivity", "#notion", "#techtips", "#software", "#workflow"],
+"likes": 6200,
+"comments": 155,
+"saves": 410,
+"is_promotional": false
+},
+"content_overview": {
+"primary_theme": "Productivity Software",
+"secondary_theme": "Workflow Optimization",
+"mood": "Informative, helpful",
+"tone": "Educational",
+"audience_emotion_targeted": ["efficiency", "organization", "focus"],
+"setting": "Desktop screenshot / Digital",
+"camera_style": "Screen capture",
+"lighting": "Digital screen light",
+"brand_presence": true,
+"mentioned_brands": ["Notion"]
+},
+"visual_analysis": {
+"dominant_colors": ["#FFFFFF", "#EAEAEA", "#333333"],
+"composition_type": "Screenshot layout",
+"objects_detected": ["text", "UI elements", "icons", "database view"],
+"focus_subject": "Notion interface",
+"aesthetic_score": 7.8
+},
+"linguistic_analysis": {
+"caption_tone": "Helpful, clear",
+"emotion_keywords": ["boost", "focus", "organize", "goals", "trick"],
+"hashtag_intent": ["software tips", "productivity tools"],
+"text_overlay_presence": false
+},
+"engagement_features": {
+"engagement_rate": 0.075,
+"comment_sentiment": "Positive"
+},
+"embedding": [0.08, 0.11, 0.15, 0.22, 0.18]
+}

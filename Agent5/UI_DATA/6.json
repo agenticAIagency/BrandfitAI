@@ -1,0 +1,47 @@
+
+{
+  "creator_id": "creator_005",
+  "persona_version": "v20251101_synthetic",
+  "identity_summary": {
+    "short_summary": "A tech enthusiast reviewing gadgets and sharing insights on the latest innovations in consumer electronics.",
+    "persona_keywords": ["Tech", "Gadgets", "Reviews", "Innovation"]
+  },
+  "content_intelligence": {
+    "dominant_topics": ["Tech", "Reviews"],
+    "topic_distribution": {"Tech": 0.7, "Reviews": 0.3},
+    "emotional_profile": {
+      "dominant_emotions": ["Excitement", "Curiosity"],
+      "average_emotional_intensity": 0.7
+    }
+  },
+  "style_intelligence": {
+    "visual_signatures": {
+      "lighting": ["Studio LED lights"],
+      "camera_styles": ["Product unboxings"],
+      "dominant_color_palette": ["#808080", "#000000", "#FFFFFF"]
+    },
+    "audio_signatures": {
+      "music_types": ["Futuristic synth"],
+      "speech_style": "Informative, enthusiastic"
+    }
+  },
+  "performance_intelligence": {
+    "posting_frequency_per_week": 3.2,
+    "avg_engagement_rate": 0.065,
+    "authenticity_score": 0.75,
+    "consistency_score": 0.72,
+    "avg_aesthetic_score": 7.5,
+    "audience_sentiment": "Neutral",
+    "total_posts_analyzed": 80,
+    "follower_count": 80000
+  },
+  "raw_stats": {
+    "sum_likes": 640000,
+    "sum_comments": 12000,
+    "media_type_counts": {"reel": 40, "post": 40}
+  },
+  "metadata": {
+    "first_post_date": "2024-03-01",
+    "last_updated": "2025-10-29T12:00:00Z"
+  }
+}
