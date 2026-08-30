@@ -1,0 +1,90 @@
+name: brandfit-core
+
+x-app: &app
+  image: brandfit-core-app:local
+  build: .
+  env_file: .env
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+    minio:
+      condition: service_started
+  volumes:
+    - ./fixtures:/app/fixtures
+
+services:
+  api:
+    <<: *app
+    command: ["sh", "-c", "alembic upgrade head && uvicorn brandfit_core.api.main:app --host 0.0.0.0 --port 8000"]
+    ports:
+      - "8000:8000"
+
+  worker:
+    <<: *app
+    command:
+      [
+        "celery",
+        "-A",
+        "brandfit_core.workers.celery_app:celery_app",
+        "worker",
+        "--loglevel=INFO",
+        "--concurrency=2",
+        "--max-tasks-per-child=25",
+      ]
+
+  scheduler:
+    <<: *app
+    command: ["celery", "-A", "brandfit_core.workers.celery_app:celery_app", "beat", "--loglevel=INFO"]
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: brandfit
+      POSTGRES_USER: brandfit
+      POSTGRES_PASSWORD: brandfit
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U brandfit -d brandfit"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    ports:
+      - "6379:6379"
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address :9001
+    environment:
+      MINIO_ROOT_USER: brandfit
+      MINIO_ROOT_PASSWORD: change-me
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio-data:/data
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+
+volumes:
+  postgres-data:
+  minio-data:
+  ollama-data:
